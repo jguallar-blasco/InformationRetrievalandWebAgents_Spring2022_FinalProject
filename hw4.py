@@ -29,7 +29,7 @@ def parse_links_sorted(root, html):
 
 def get_links(url):
     res = request.urlopen(url)
-    return list(parse_links(url, res.read()))
+    return list(parse_links(url, res.read())) 
 
 
 def get_nonlocal_links(url):
@@ -39,8 +39,7 @@ def get_nonlocal_links(url):
 
     # TODO: implement
     links = get_links(url)
-    print(links)
-    exit()
+   
     filtered = []
     return filtered
 
@@ -50,7 +49,6 @@ def crawl(root, wanted_content=[], within_domain=True):
     `wanted_content` is a list of content types to crawl
     `within_domain` specifies whether the crawler should limit itself to the domain of `root`
     '''
-    # TODO: implement
 
     queue = Queue()
     queue.put(root)
@@ -59,23 +57,62 @@ def crawl(root, wanted_content=[], within_domain=True):
     extracted = []
 
     while not queue.empty():
+        content_match = 0 
+
         url = queue.get()
-        try:
-            req = request.urlopen(url)
-            html = req.read()
+        if within_domain: # If only urls from within the domain should be accepted
+             x = re.search('^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)', root)
+             if x.search(url):
 
-            visited.append(url)
-            visitlog.debug(url)
+                try:
+                    req = request.urlopen(url)
+                    for content in wanted_content: # Run through wanted content
+                        if req.headers['Content-Type'] == content: # Determine if content match
+                            content_match = 1 
 
-            for ex in extract_information(url, html):
-                extracted.append(ex)
-                extractlog.debug(ex)
+                    if content_match: 
+                        html = req.read()
 
-            for link, title in parse_links(url, html):
-                queue.put(link)
+                        visited.append(url)
+                        visitlog.debug(url)
 
-        except Exception as e:
-            print(e, url)
+                        for ex in extract_information(url, html):
+                            extracted.append(ex)
+                            extractlog.debug(ex)
+
+                        for link, title in parse_links(url, html):
+                            queue.put(link)
+                    else:
+                        continue
+
+                except Exception as e:
+                    print(e, url)
+                
+             else: 
+                next
+        else: # If all urls should be accepted
+            try:
+                for content in wanted_content: # Run through wanted content
+                        if req.headers['Content-Type'] == content: # Determine if content match
+                            content_match = 1 
+
+                if content_match:
+                    req = request.urlopen(url)
+                    html = req.read()
+
+                    visited.append(url)
+                    visitlog.debug(url)
+
+                    for ex in extract_information(url, html):
+                        extracted.append(ex)
+                        extractlog.debug(ex)
+
+                    for link, title in parse_links(url, html):
+                        queue.put(link)
+
+            except Exception as e:
+                print(e, url)
+            
 
     return visited, extracted
 
@@ -88,6 +125,10 @@ def extract_information(address, html):
     results = []
     for match in re.findall('\d\d\d-\d\d\d-\d\d\d\d', str(html)):
         results.append((address, 'PHONE', match))
+    for match in re.findall('([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)', str(html)):
+        results.append((address, 'EMAIL', match))
+    for match in re.findall('([a-zA-Z]+[,]? [a-zA-Z]+ (?<!\d)\d{5}(?!\d)+)'):
+        results.append((address, 'ADDRESS', match))
     return results
 
 

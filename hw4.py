@@ -123,11 +123,7 @@ def extract_information(address, html):
         results.append((address, 'PHONE', match))
     for match in re.findall('([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)', str(html)):
         results.append((address, 'EMAIL', match))
-    # for match in re.findall('([a-zA-Z]+, [a-zA-Z]+ (?<!\d)\d{5}(?!\d)+)', str(html)):
-    #     results.append((address, 'ADDRESS', match))
-    # for match in re.findall('([A-Z][a-z]+\s?)+,?\s?([A-Z][a-z]*\s?.?)+,?\s?(\d\d\d\d\d)', str(html)):
-    #     results.append((address, 'ADDRESS', match))
-    for match in re.findall('([A-Z][a-z]+\s?,)+\s?((?:[A-Z][a-z]*\s?.?)+)\s?(\d\d\d\d\d)', str(html)):
+    for match in re.findall('((?:[A-Z][a-z]+\s?)+[,])+\s?((?:[A-Z][a-z]*\s?[.]?)+)\s?(\d\d\d\d\d)', str(html)):
         results.append((address, 'ADDRESS', match))
     return results
 

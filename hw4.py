@@ -2,7 +2,7 @@ import logging
 import re
 import sys
 from bs4 import BeautifulSoup
-from queue import Queue
+from queue import Queue, PriorityQueue
 from urllib import parse, request
 
 logging.basicConfig(level=logging.DEBUG, filename='output.log', filemode='w')
@@ -23,13 +23,23 @@ def parse_links(root, html):
 
 
 def parse_links_sorted(root, html):
-    # TODO: implement
-    return []
+    soup = BeautifulSoup(html, 'html.parser')
+    for link in soup.find_all('a'):
+        href = link.get('href')
+        if href:
+            text = link.string
+            if not text:
+                text = ''
+            text = re.sub('\s+', ' ', text).strip()
+            link = parse.urljoin(root, link.get('href'))
+            s = parse.urlsplit(link)
+            rank = len(s.path) + len(s.query) + len(s.fragment)
+            yield (rank, link, text)
 
 
 def get_links(url):
     res = request.urlopen(url)
-    return list(parse_links(url, res.read())) 
+    return list(parse_links(url, res.read()))
 
 
 def get_nonlocal_links(url):
@@ -37,10 +47,16 @@ def get_nonlocal_links(url):
     but only keep non-local links and non self-references.
     Return a list of (link, title) pairs, just like get_links()'''
 
-    # TODO: implement
     links = get_links(url)
-   
+    domain = parse.urlsplit(url).netloc
+    if domain.startswith('www.'):
+        domain = domain[4:]
     filtered = []
+
+    for link in links:
+        if domain not in link[0]:
+            filtered.append(link)
+
     return filtered
 
 
@@ -50,69 +66,48 @@ def crawl(root, wanted_content=[], within_domain=True):
     `within_domain` specifies whether the crawler should limit itself to the domain of `root`
     '''
 
-    queue = Queue()
-    queue.put(root)
+    queue = PriorityQueue()
+    queue.put((1, root))
+
+    domain = parse.urlsplit(root).netloc
+    if domain.startswith('www.'):
+        domain = domain[4:]
 
     visited = []
     extracted = []
 
+    visited.append(root)
+
     while not queue.empty():
-        content_match = 0 
+        rank, url = queue.get()
 
-        url = queue.get()
-        if within_domain: # If only urls from within the domain should be accepted
-             x = re.search('^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)', root)
-             if x.search(url):
+        # if url in visited:  # need a second check in case two previous pages queue the same page
+        #     continue
 
-                try:
-                    req = request.urlopen(url)
-                    for content in wanted_content: # Run through wanted content
-                        if req.headers['Content-Type'] == content: # Determine if content match
-                            content_match = 1 
+        if within_domain and domain not in url:
+            continue
 
-                    if content_match: 
-                        html = req.read()
+        try:
+            req = request.urlopen(url)
+            html = req.read()
 
-                        visited.append(url)
-                        visitlog.debug(url)
+            if req.headers['Content-Type'] not in wanted_content and wanted_content:
+                continue
 
-                        for ex in extract_information(url, html):
-                            extracted.append(ex)
-                            extractlog.debug(ex)
+            # visited.append(url)
+            visitlog.debug(url)
 
-                        for link, title in parse_links(url, html):
-                            queue.put(link)
-                    else:
-                        continue
+            for ex in extract_information(url, html):
+                extracted.append(ex)
+                extractlog.debug(ex)
 
-                except Exception as e:
-                    print(e, url)
-                
-             else: 
-                next
-        else: # If all urls should be accepted
-            try:
-                for content in wanted_content: # Run through wanted content
-                        if req.headers['Content-Type'] == content: # Determine if content match
-                            content_match = 1 
+            for rank, link, title in parse_links_sorted(url, html):
+                if link not in visited:
+                    visited.append(link)
+                    queue.put((rank + len(title), link))
 
-                if content_match:
-                    req = request.urlopen(url)
-                    html = req.read()
-
-                    visited.append(url)
-                    visitlog.debug(url)
-
-                    for ex in extract_information(url, html):
-                        extracted.append(ex)
-                        extractlog.debug(ex)
-
-                    for link, title in parse_links(url, html):
-                        queue.put(link)
-
-            except Exception as e:
-                print(e, url)
-            
+        except Exception as e:
+            print(e, url)
 
     return visited, extracted
 
@@ -121,13 +116,12 @@ def extract_information(address, html):
     '''Extract contact information from html, returning a list of (url, category, content) pairs,
     where category is one of PHONE, ADDRESS, EMAIL'''
 
-    # TODO: implement
     results = []
     for match in re.findall('\d\d\d-\d\d\d-\d\d\d\d', str(html)):
         results.append((address, 'PHONE', match))
     for match in re.findall('([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)', str(html)):
         results.append((address, 'EMAIL', match))
-    for match in re.findall('([a-zA-Z]+[,]? [a-zA-Z]+ (?<!\d)\d{5}(?!\d)+)'):
+    for match in re.findall('([a-zA-Z]+[,]? [a-zA-Z]+ (?<!\d)\d{5}(?!\d)+)', str(html)):
         results.append((address, 'ADDRESS', match))
     return results
 

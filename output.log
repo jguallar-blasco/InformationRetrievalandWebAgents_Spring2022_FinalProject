@@ -1,1 +1,1536 @@
 DEBUG:visited:https://www.cs.jhu.edu/~yarowsky/cs466.html
+DEBUG:visited:http://www.sims.berkeley.edu/~hearst/irbook/
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 937
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 937
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 937
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 937
+DEBUG:chardet.charsetprober:utf-8 not active
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP not active
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR not active
+DEBUG:chardet.charsetprober:CP949 not active
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48097045694372154
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:visited:http://www.dcc.ufmg.br/irbook
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 906
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 906
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 906
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 906
+DEBUG:chardet.charsetprober:utf-8 not active
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP not active
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR not active
+DEBUG:chardet.charsetprober:CP949 not active
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4852452387354504
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:visited:http://www.sims.berkeley.edu/~hearst/irbook
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 937
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 937
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 937
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 937
+DEBUG:chardet.charsetprober:utf-8 not active
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP not active
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR not active
+DEBUG:chardet.charsetprober:CP949 not active
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48097045694372154
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:visited:http://www.sims.berkeley.edu/~hearst/irbook/x
+DEBUG:visited:http://www.cs.jhu.edu/~yarowsky/
+DEBUG:extracted:('http://www.cs.jhu.edu/~yarowsky/', 'PHONE', '(410) 516-5372')
+DEBUG:extracted:('http://www.cs.jhu.edu/~yarowsky/', 'EMAIL', 'yarowsky@jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu/~yarowsky/', 'ADDRESS', ('Baltimore,', 'MD', '21218'))
+DEBUG:visited:http://cljournal.org
+DEBUG:extracted:('http://cljournal.org', 'EMAIL', 'editor@cljournal.org')
+DEBUG:extracted:('http://cljournal.org', 'EMAIL', 'contact@cljournal.org')
+DEBUG:extracted:('http://cljournal.org', 'EMAIL', 'contact@cljournal.org')
+DEBUG:visited:http://cljournal.org/lastwords.html
+DEBUG:extracted:('http://cljournal.org/lastwords.html', 'EMAIL', 'contact@cljournal.org')
+DEBUG:extracted:('http://cljournal.org/lastwords.html', 'EMAIL', 'contact@cljournal.org')
+DEBUG:visited:http://www.cs.ust.hk/acl2000/
+DEBUG:extracted:('http://www.cs.ust.hk/acl2000/', 'EMAIL', 'acl2000@cs.ust.hk')
+DEBUG:extracted:('http://www.cs.ust.hk/acl2000/', 'EMAIL', 'acl2000@cs.ust.hk')
+DEBUG:extracted:('http://www.cs.ust.hk/acl2000/', 'EMAIL', 'acl2000@cs.ust.hk')
+DEBUG:extracted:('http://www.cs.ust.hk/acl2000/', 'EMAIL', 'acl2000@cs.ust.hk')
+DEBUG:extracted:('http://www.cs.ust.hk/acl2000/', 'EMAIL', 'acl2000@cs.ust.hk')
+DEBUG:visited:http://www.harvard.edu
+DEBUG:visited:http://edib.harvard.edu
+DEBUG:extracted:('http://edib.harvard.edu', 'PHONE', '617-496-9678')
+DEBUG:extracted:('http://edib.harvard.edu', 'EMAIL', 'edib@harvard.edu')
+DEBUG:extracted:('http://edib.harvard.edu', 'EMAIL', 'edib@harvard.edu')
+DEBUG:extracted:('http://edib.harvard.edu', 'ADDRESS', ('Cambridge,', 'Massachusetts ', '02138'))
+DEBUG:visited:http://news.harvard.edu
+DEBUG:extracted:('http://news.harvard.edu', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://www.hbs.edu
+DEBUG:extracted:('http://www.hbs.edu', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://harvardbusinessschool.tumblr.com
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://www.exed.hbs.edu
+DEBUG:extracted:('https://www.exed.hbs.edu', 'EMAIL', 'executive_education@hbs.edu')
+DEBUG:extracted:('https://www.exed.hbs.edu', 'EMAIL', 'element-ui@2.2.2')
+DEBUG:extracted:('https://www.exed.hbs.edu', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.harvard.edu
+DEBUG:visited:https://www.hbs.edu
+DEBUG:extracted:('https://www.hbs.edu', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:http://ccva.fas.harvard.edu/
+DEBUG:extracted:('http://ccva.fas.harvard.edu/', 'EMAIL', 'ccva@fas.harvard.edu')
+DEBUG:extracted:('http://ccva.fas.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://chsi.harvard.edu/
+DEBUG:extracted:('http://chsi.harvard.edu/', 'PHONE', '617-495-2779')
+DEBUG:extracted:('http://chsi.harvard.edu/', 'PHONE', '617-496-5794')
+DEBUG:extracted:('http://chsi.harvard.edu/', 'EMAIL', 'chsi@fas.harvard.edu')
+DEBUG:extracted:('http://chsi.harvard.edu/', 'EMAIL', 'chsi@fas.harvard.edu')
+DEBUG:visited:http://chsi.harvard.edu
+DEBUG:extracted:('http://chsi.harvard.edu', 'PHONE', '617-495-2779')
+DEBUG:extracted:('http://chsi.harvard.edu', 'PHONE', '617-496-5794')
+DEBUG:extracted:('http://chsi.harvard.edu', 'EMAIL', 'chsi@fas.harvard.edu')
+DEBUG:extracted:('http://chsi.harvard.edu', 'EMAIL', 'chsi@fas.harvard.edu')
+DEBUG:visited:http://commencement.harvard.edu/
+DEBUG:extracted:('http://commencement.harvard.edu/', 'EMAIL', 'commencement@harvard.edu')
+DEBUG:extracted:('http://commencement.harvard.edu/', 'EMAIL', 'commencement@harvard.edu')
+DEBUG:visited:http://hmsc.harvard.edu/
+DEBUG:extracted:('http://hmsc.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://mgmh.fas.harvard.edu/
+DEBUG:visited:http://www.harvard.edu/
+DEBUG:visited:http://www.harvardartmuseums.org/
+DEBUG:extracted:('http://www.harvardartmuseums.org/', 'PHONE', '(617) 495-9400')
+DEBUG:extracted:('http://www.harvardartmuseums.org/', 'EMAIL', 'alpine-clipboard@0.1.x')
+DEBUG:extracted:('http://www.harvardartmuseums.org/', 'EMAIL', 'alpine@v2.x.x')
+DEBUG:visited:http://www.hmnh.harvard.edu/
+DEBUG:extracted:('http://www.hmnh.harvard.edu/', 'PHONE', '(617) 495-3045')
+DEBUG:extracted:('http://www.hmnh.harvard.edu/', 'EMAIL', 'hmnh@hmsc.harvard.edu')
+DEBUG:extracted:('http://www.hmnh.harvard.edu/', 'EMAIL', 'hmnh@hmsc.harvard.edu')
+DEBUG:extracted:('http://www.hmnh.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://hmnh.harvard.edu/
+DEBUG:extracted:('http://hmnh.harvard.edu/', 'PHONE', '(617) 495-3045')
+DEBUG:extracted:('http://hmnh.harvard.edu/', 'EMAIL', 'hmnh@hmsc.harvard.edu')
+DEBUG:extracted:('http://hmnh.harvard.edu/', 'EMAIL', 'hmnh@hmsc.harvard.edu')
+DEBUG:extracted:('http://hmnh.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://www.huh.harvard.edu/
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'PHONE', '467-021-2718')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'PHONE', '617-495-2365')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'PHONE', '617-495-9484')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'PHONE', '617-495-2366')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'EMAIL', 'huh-requests@oeb.harvard.edu')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'EMAIL', 'huh-requests@oeb.harvard.edu')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'EMAIL', 'botref@oeb.harvard.edu')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'EMAIL', 'botref@oeb.harvard.edu')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'EMAIL', 'huh-requests@oeb.harvard.edu')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'EMAIL', 'huh-requests@oeb.harvard.edu')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'EMAIL', 'botref@oeb.harvard.edu')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'EMAIL', 'botref@oeb.harvard.edu')
+DEBUG:extracted:('http://www.huh.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://www.mcz.harvard.edu/
+DEBUG:visited:http://www.peabody.harvard.edu/
+DEBUG:extracted:('http://www.peabody.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://chsi.harvard.edu/
+DEBUG:extracted:('https://chsi.harvard.edu/', 'PHONE', '617-495-2779')
+DEBUG:extracted:('https://chsi.harvard.edu/', 'PHONE', '617-496-5794')
+DEBUG:extracted:('https://chsi.harvard.edu/', 'EMAIL', 'chsi@fas.harvard.edu')
+DEBUG:extracted:('https://chsi.harvard.edu/', 'EMAIL', 'chsi@fas.harvard.edu')
+DEBUG:visited:https://college.harvard.edu/
+DEBUG:extracted:('https://college.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:extracted:('https://college.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:extracted:('https://college.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:extracted:('https://college.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://countway.harvard.edu/
+DEBUG:extracted:('https://countway.harvard.edu/', 'PHONE', '(617) 432-2136')
+DEBUG:extracted:('https://countway.harvard.edu/', 'EMAIL', 'hmswarpteam@hms.harvard.edu')
+DEBUG:extracted:('https://countway.harvard.edu/', 'ADDRESS', ('Boston,', 'MA', '02115'))
+DEBUG:visited:https://edib.harvard.edu/
+DEBUG:extracted:('https://edib.harvard.edu/', 'PHONE', '617-496-9678')
+DEBUG:extracted:('https://edib.harvard.edu/', 'EMAIL', 'edib@harvard.edu')
+DEBUG:extracted:('https://edib.harvard.edu/', 'EMAIL', 'edib@harvard.edu')
+DEBUG:extracted:('https://edib.harvard.edu/', 'ADDRESS', ('Cambridge,', 'Massachusetts ', '02138'))
+DEBUG:visited:https://gsas.harvard.edu/
+DEBUG:extracted:('https://gsas.harvard.edu/', 'PHONE', '617-495-5315')
+DEBUG:extracted:('https://gsas.harvard.edu/', 'PHONE', '617-495-2928')
+DEBUG:extracted:('https://gsas.harvard.edu/', 'EMAIL', 'gsas@fas.harvard.edu')
+DEBUG:extracted:('https://gsas.harvard.edu/', 'EMAIL', 'gsas@fas.harvard.edu')
+DEBUG:extracted:('https://gsas.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardfilmarchive.org/
+DEBUG:visited:https://harvardforest.fas.harvard.edu/
+DEBUG:extracted:('https://harvardforest.fas.harvard.edu/', 'PHONE', '(978) 724-3302')
+DEBUG:extracted:('https://harvardforest.fas.harvard.edu/', 'PHONE', '(978) 724-3595')
+DEBUG:visited:https://hds.harvard.edu/
+DEBUG:extracted:('https://hds.harvard.edu/', 'ADDRESS', ('Cambridge,', 'Massachusetts ', '02138'))
+DEBUG:visited:https://hdsadmissionsblog.com/
+DEBUG:visited:https://hdsadmissionsblog.com
+DEBUG:visited:https://healthequityinnativeamerica.com/
+DEBUG:extracted:('https://healthequityinnativeamerica.com/', 'EMAIL', 'NativeHealth@mit.edu')
+DEBUG:visited:https://nativeamericanlifelines.org
+DEBUG:extracted:('https://nativeamericanlifelines.org', 'PHONE', '(410) 837-2258')
+DEBUG:extracted:('https://nativeamericanlifelines.org', 'PHONE', '(410) 837-2692')
+DEBUG:extracted:('https://nativeamericanlifelines.org', 'PHONE', '(857) 203-9680')
+DEBUG:extracted:('https://nativeamericanlifelines.org', 'PHONE', '(857) 203-9653')
+DEBUG:extracted:('https://nativeamericanlifelines.org', 'ADDRESS', ('Baltimore,', 'MD', '21202'))
+DEBUG:extracted:('https://nativeamericanlifelines.org', 'ADDRESS', ('Roxbury,', 'MA', '02132'))
+DEBUG:visited:https://www.mghdisparitiessolutions.org
+DEBUG:extracted:('https://www.mghdisparitiessolutions.org', 'EMAIL', 'core-js-bundle@3.2.1')
+DEBUG:extracted:('https://www.mghdisparitiessolutions.org', 'EMAIL', 'focus-within-polyfill@5.0.9')
+DEBUG:extracted:('https://www.mghdisparitiessolutions.org', 'EMAIL', '605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com')
+DEBUG:extracted:('https://www.mghdisparitiessolutions.org', 'EMAIL', '831126cb46b74583bf6f72c5061cba9d@sentry-viewer.wixpress.com')
+DEBUG:extracted:('https://www.mghdisparitiessolutions.org', 'EMAIL', 'lodash@4.17.21')
+DEBUG:extracted:('https://www.mghdisparitiessolutions.org', 'EMAIL', 'react@16.13.1')
+DEBUG:extracted:('https://www.mghdisparitiessolutions.org', 'EMAIL', 'react-dom@16.13.1')
+DEBUG:visited:https://www.thepeoplesheart.org
+DEBUG:extracted:('https://www.thepeoplesheart.org', 'EMAIL', 'ThePeoplesheART@partners.org')
+DEBUG:extracted:('https://www.thepeoplesheart.org', 'EMAIL', 'ThePeoplesheART@partners.org')
+DEBUG:visited:https://hls.harvard.edu/
+DEBUG:visited:https://hls.harvard.edu
+DEBUG:visited:https://hmane.harvard.edu/
+DEBUG:extracted:('https://hmane.harvard.edu/', 'PHONE', '(617) 495-4631')
+DEBUG:extracted:('https://hmane.harvard.edu/', 'EMAIL', 'hmane@harvard.edu')
+DEBUG:extracted:('https://hmane.harvard.edu/', 'EMAIL', 'hmane@harvard.edu')
+DEBUG:visited:https://hmnh.harvard.edu/
+DEBUG:extracted:('https://hmnh.harvard.edu/', 'PHONE', '(617) 495-3045')
+DEBUG:extracted:('https://hmnh.harvard.edu/', 'EMAIL', 'hmnh@hmsc.harvard.edu')
+DEBUG:extracted:('https://hmnh.harvard.edu/', 'EMAIL', 'hmnh@hmsc.harvard.edu')
+DEBUG:extracted:('https://hmnh.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://hms.harvard.edu/
+DEBUG:extracted:('https://hms.harvard.edu/', 'PHONE', '617-432-1000')
+DEBUG:extracted:('https://hms.harvard.edu/', 'EMAIL', 'slick-carousel@1.8.1')
+DEBUG:extracted:('https://hms.harvard.edu/', 'EMAIL', 'slick-carousel@1.8.1')
+DEBUG:extracted:('https://hms.harvard.edu/', 'EMAIL', 'slick-carousel@1.8.1')
+DEBUG:extracted:('https://hms.harvard.edu/', 'ADDRESS', ('Boston,', 'MA', '02115'))
+DEBUG:visited:https://www.health.harvard.edu
+DEBUG:extracted:('https://www.health.harvard.edu', 'PHONE', '877-649-9457')
+DEBUG:extracted:('https://www.health.harvard.edu', 'PHONE', '195-021-0093')
+DEBUG:extracted:('https://www.health.harvard.edu', 'EMAIL', 'hhp_info@health.harvard.edu')
+DEBUG:extracted:('https://www.health.harvard.edu', 'EMAIL', 'hhp_logo@2x.png')
+DEBUG:extracted:('https://www.health.harvard.edu', 'EMAIL', 'hhp_logo@2x.png')
+DEBUG:visited:https://dicp.hms.harvard.edu/
+DEBUG:visited:https://hmsc.harvard.edu/
+DEBUG:extracted:('https://hmsc.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://hsdm.harvard.edu/
+DEBUG:extracted:('https://hsdm.harvard.edu/', 'PHONE', '(617) 432-1434')
+DEBUG:extracted:('https://hsdm.harvard.edu/', 'PHONE', '(617) 432-1434')
+DEBUG:extracted:('https://hsdm.harvard.edu/', 'EMAIL', 'clinical_affairs@hsdm.harvard.edu')
+DEBUG:extracted:('https://hsdm.harvard.edu/', 'EMAIL', 'clinical_affairs@hsdm.harvard.edu')
+DEBUG:extracted:('https://hsdm.harvard.edu/', 'ADDRESS', ('Boston,', 'Massachusetts ', '02115'))
+DEBUG:visited:http://www.hsph.harvard.edu/
+DEBUG:extracted:('http://www.hsph.harvard.edu/', 'EMAIL', '1cf5486bca3949988f6ee887a807ff7c@o259296.ingest.sentry.io')
+DEBUG:visited:https://annualreport.hsdm.harvard.edu/
+DEBUG:extracted:('https://annualreport.hsdm.harvard.edu/', 'PHONE', '(617) 432-1434')
+DEBUG:extracted:('https://annualreport.hsdm.harvard.edu/', 'EMAIL', 'HSDM_Development@hsdm.harvard.edu')
+DEBUG:extracted:('https://annualreport.hsdm.harvard.edu/', 'EMAIL', 'hsdm_development@hsdm.harvard.edu')
+DEBUG:extracted:('https://annualreport.hsdm.harvard.edu/', 'ADDRESS', ('Boston,', 'MA', '02115'))
+DEBUG:visited:https://leadlocally.community.harvard.edu/
+DEBUG:extracted:('https://leadlocally.community.harvard.edu/', 'PHONE', '(617) 495-1585')
+DEBUG:extracted:('https://leadlocally.community.harvard.edu/', 'PHONE', '(617) 495-0754')
+DEBUG:extracted:('https://leadlocally.community.harvard.edu/', 'EMAIL', 'community@harvard.edu')
+DEBUG:extracted:('https://leadlocally.community.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://library.harvard.edu/
+DEBUG:visited:https://library.hds.harvard.edu/
+DEBUG:extracted:('https://library.hds.harvard.edu/', 'ADDRESS', ('Cambridge,', 'Massachusetts ', '02138'))
+DEBUG:visited:https://hdslibrary.tumblr.com
+DEBUG:extracted:('https://hdslibrary.tumblr.com', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://hdslibrary.tumblr.com/
+DEBUG:extracted:('https://hdslibrary.tumblr.com/', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://library.mcz.harvard.edu/
+DEBUG:extracted:('https://library.mcz.harvard.edu/', 'PHONE', '(617) 495-2475')
+DEBUG:extracted:('https://library.mcz.harvard.edu/', 'EMAIL', 'mayrlib@oeb.harvard.edu')
+DEBUG:extracted:('https://library.mcz.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://www.biodiversitylibrary.org/
+DEBUG:visited:https://nativeamericanlifelines.org/
+DEBUG:extracted:('https://nativeamericanlifelines.org/', 'PHONE', '(410) 837-2258')
+DEBUG:extracted:('https://nativeamericanlifelines.org/', 'PHONE', '(410) 837-2692')
+DEBUG:extracted:('https://nativeamericanlifelines.org/', 'PHONE', '(857) 203-9680')
+DEBUG:extracted:('https://nativeamericanlifelines.org/', 'PHONE', '(857) 203-9653')
+DEBUG:extracted:('https://nativeamericanlifelines.org/', 'ADDRESS', ('Baltimore,', 'MD', '21202'))
+DEBUG:extracted:('https://nativeamericanlifelines.org/', 'ADDRESS', ('Roxbury,', 'MA', '02132'))
+DEBUG:visited:https://perspectivesofchange.hms.harvard.edu/
+DEBUG:extracted:('https://perspectivesofchange.hms.harvard.edu/', 'PHONE', '617-432-2136')
+DEBUG:extracted:('https://perspectivesofchange.hms.harvard.edu/', 'PHONE', '617-432-2413')
+DEBUG:extracted:('https://perspectivesofchange.hms.harvard.edu/', 'ADDRESS', ('Boston,', 'MA', '02115'))
+DEBUG:extracted:('https://perspectivesofchange.hms.harvard.edu/', 'ADDRESS', ('Boston,', 'MA', '02115'))
+DEBUG:visited:https://www.bscp.org/
+DEBUG:extracted:('https://www.bscp.org/', 'PHONE', '(617) 432-0552')
+DEBUG:extracted:('https://www.bscp.org/', 'PHONE', '(617) 432-3834')
+DEBUG:extracted:('https://www.bscp.org/', 'EMAIL', 'slick-carousel@1.8.1')
+DEBUG:extracted:('https://www.bscp.org/', 'EMAIL', 'Hollie_DeSilva@hms.harvard.edu')
+DEBUG:extracted:('https://www.bscp.org/', 'EMAIL', 'Hollie_DeSilva@hms.harvard.edu')
+DEBUG:extracted:('https://www.bscp.org/', 'EMAIL', 'slick-carousel@1.8.1')
+DEBUG:extracted:('https://www.bscp.org/', 'ADDRESS', ('Boston,', 'Massachusetts ', '02115'))
+DEBUG:visited:https://bscp.org/
+DEBUG:extracted:('https://bscp.org/', 'PHONE', '(617) 432-0552')
+DEBUG:extracted:('https://bscp.org/', 'PHONE', '(617) 432-3834')
+DEBUG:extracted:('https://bscp.org/', 'EMAIL', 'slick-carousel@1.8.1')
+DEBUG:extracted:('https://bscp.org/', 'EMAIL', 'Hollie_DeSilva@hms.harvard.edu')
+DEBUG:extracted:('https://bscp.org/', 'EMAIL', 'Hollie_DeSilva@hms.harvard.edu')
+DEBUG:extracted:('https://bscp.org/', 'EMAIL', 'slick-carousel@1.8.1')
+DEBUG:extracted:('https://bscp.org/', 'ADDRESS', ('Boston,', 'Massachusetts ', '02115'))
+DEBUG:visited:https://www.dce.harvard.edu/
+DEBUG:visited:https://dce.harvard.edu
+DEBUG:visited:https://extension.harvard.edu
+DEBUG:visited:https://hilr.dce.harvard.edu
+DEBUG:extracted:('https://hilr.dce.harvard.edu', 'ADDRESS', ('Cambridge,', 'Mass.', '02138'))
+DEBUG:visited:https://professional.dce.harvard.edu
+DEBUG:visited:https://summer.harvard.edu
+DEBUG:visited:http://hilr.dce.harvard.edu/
+DEBUG:extracted:('http://hilr.dce.harvard.edu/', 'ADDRESS', ('Cambridge,', 'Mass.', '02138'))
+DEBUG:visited:http://members.hilr.harvard.edu/
+DEBUG:visited:http://professional.dce.harvard.edu/
+DEBUG:visited:https://alumni.extension.harvard.edu/
+DEBUG:visited:https://alumni.extension.harvard.edu
+DEBUG:visited:https://extension.harvard.edu/
+DEBUG:visited:https://hilr.dce.harvard.edu/
+DEBUG:extracted:('https://hilr.dce.harvard.edu/', 'ADDRESS', ('Cambridge,', 'Mass.', '02138'))
+DEBUG:visited:https://professional.dce.harvard.edu/
+DEBUG:visited:https://summer.harvard.edu/
+DEBUG:visited:https://www.extension.harvard.edu/
+DEBUG:visited:https://www.fas.harvard.edu/
+DEBUG:extracted:('https://www.fas.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://www.fas.harvard.edu
+DEBUG:extracted:('http://www.fas.harvard.edu', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://www.frontporcharts.org/
+DEBUG:extracted:('https://www.frontporcharts.org/', 'EMAIL', 'info@frontporcharts.org')
+DEBUG:visited:https://www.gse.harvard.edu/
+DEBUG:extracted:('https://www.gse.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://the-harvard-edcast.simplecast.com/
+DEBUG:visited:https://www.hbs.edu/
+DEBUG:extracted:('https://www.hbs.edu/', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.hks.harvard.edu/
+DEBUG:extracted:('https://www.hks.harvard.edu/', 'PHONE', '617-495-1100')
+DEBUG:extracted:('https://www.hks.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://www.hsph.harvard.edu/
+DEBUG:extracted:('https://www.hsph.harvard.edu/', 'EMAIL', '1cf5486bca3949988f6ee887a807ff7c@o259296.ingest.sentry.io')
+DEBUG:visited:https://www.library.hbs.edu/
+DEBUG:extracted:('https://www.library.hbs.edu/', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.massgeneral.org/
+DEBUG:extracted:('https://www.massgeneral.org/', 'PHONE', '617-726-2000')
+DEBUG:visited:http://protomag.com/
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_CASE-RECORDS_Buzelli_FEAT_2044x1358@2x.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_POLICY_TRIALS-FINAL_FEAT_2044x1358@2x-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_POST-OP_Illo_FEAT_2044x1358@2x-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_FND_01_PROTO_SusanaBlasco_FEAT_2044x1358@2x-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_QA_AP_17209751005229_FEAT_2044x1358@2x-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_MILESTONE_dora-richter_FEAT_2044x1358@2x-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_Infographic_FEAT_2044x1358@2x-800x531.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_2ND-OPINION_Bias-Upright_FEAT_2044x1358@2x-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_ANIMALS_bat-rainbow_FEAT_2044x1358@2x-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_TRUST_Proto14-04_FEAT_2044x1358@2x-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_Augusta_2626906_FEATURE_2044x1358@2x2-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_Genome_1290651276_FEATURE_2044x1358@2x-800x532.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH_Proto_web_Fall21_FEAT_CovidMourning_21265138326453_2044x1358@2x-400x266.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_FND_01_PROTO_SusanaBlasco_FEAT_2044x1358@2x-400x266.jpg')
+DEBUG:extracted:('http://protomag.com/', 'EMAIL', 'MGH-Proto-web_SP22_Infographic_FEAT_2044x1358@2x-400x266.jpg')
+DEBUG:visited:https://researchers.mgh.harvard.edu/
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/', 'PHONE', '617-726-2000')
+DEBUG:visited:https://www.peabody.harvard.edu/
+DEBUG:extracted:('https://www.peabody.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://www.radcliffe.harvard.edu/
+DEBUG:extracted:('https://www.radcliffe.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://www.radcliffe.harvard.edu
+DEBUG:extracted:('https://www.radcliffe.harvard.edu', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://www.seas.harvard.edu/
+DEBUG:extracted:('https://www.seas.harvard.edu/', 'ADDRESS', ('Allston,', 'MA', '02134'))
+DEBUG:extracted:('https://www.seas.harvard.edu/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://www.summer.harvard.edu/
+DEBUG:visited:https://www.thepeoplesheart.org/
+DEBUG:extracted:('https://www.thepeoplesheart.org/', 'EMAIL', 'ThePeoplesheART@partners.org')
+DEBUG:extracted:('https://www.thepeoplesheart.org/', 'EMAIL', 'ThePeoplesheART@partners.org')
+DEBUG:visited:https://www.exed.hbs.edu#top
+DEBUG:extracted:('https://www.exed.hbs.edu#top', 'EMAIL', 'executive_education@hbs.edu')
+DEBUG:extracted:('https://www.exed.hbs.edu#top', 'EMAIL', 'element-ui@2.2.2')
+DEBUG:extracted:('https://www.exed.hbs.edu#top', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.health.harvard.edu#app
+DEBUG:extracted:('https://www.health.harvard.edu#app', 'PHONE', '877-649-9457')
+DEBUG:extracted:('https://www.health.harvard.edu#app', 'PHONE', '195-021-0093')
+DEBUG:extracted:('https://www.health.harvard.edu#app', 'EMAIL', 'hhp_info@health.harvard.edu')
+DEBUG:extracted:('https://www.health.harvard.edu#app', 'EMAIL', 'hhp_logo@2x.png')
+DEBUG:extracted:('https://www.health.harvard.edu#app', 'EMAIL', 'hhp_logo@2x.png')
+DEBUG:visited:http://www.hbs.edu/mba
+DEBUG:extracted:('http://www.hbs.edu/mba', 'EMAIL', 'admissions@hbs.edu')
+DEBUG:extracted:('http://www.hbs.edu/mba', 'EMAIL', 'admissions@hbs.edu')
+DEBUG:extracted:('http://www.hbs.edu/mba', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://harvard.edu
+DEBUG:visited:https://harvard.edu/
+DEBUG:visited:https://hwpi.harvard.edu/mcz
+DEBUG:visited:https://nsf.gov
+DEBUG:extracted:('https://nsf.gov', 'PHONE', '(703) 292-5111')
+DEBUG:extracted:('https://nsf.gov', 'PHONE', '(800) 877-8339')
+DEBUG:extracted:('https://nsf.gov', 'PHONE', '(800) 281-8749')
+DEBUG:extracted:('https://nsf.gov', 'ADDRESS', ('Alexandria,', 'Virginia ', '22314'))
+DEBUG:visited:https://www.hbs.edu/mba
+DEBUG:extracted:('https://www.hbs.edu/mba', 'EMAIL', 'admissions@hbs.edu')
+DEBUG:extracted:('https://www.hbs.edu/mba', 'EMAIL', 'admissions@hbs.edu')
+DEBUG:extracted:('https://www.hbs.edu/mba', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.library.hbs.edu/#top
+DEBUG:extracted:('https://www.library.hbs.edu/#top', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/#top', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/#top', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/#top', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/#top', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.radcliffe.harvard.edu#main
+DEBUG:extracted:('https://www.radcliffe.harvard.edu#main', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://about.biodiversitylibrary.org
+DEBUG:visited:https://about.biodiversitylibrary.org/
+DEBUG:visited:https://biodiversitylibrary.org/
+DEBUG:visited:https://dicp.hms.harvard.edu/pfdi
+DEBUG:extracted:('https://dicp.hms.harvard.edu/pfdi', 'PHONE', '617-432-2413')
+DEBUG:extracted:('https://dicp.hms.harvard.edu/pfdi', 'PHONE', '617-432-1892')
+DEBUG:extracted:('https://dicp.hms.harvard.edu/pfdi', 'EMAIL', 'jessica_st.louis@hms.harvard.edu')
+DEBUG:extracted:('https://dicp.hms.harvard.edu/pfdi', 'EMAIL', 'jessica_st.louis@hms.harvard.edu')
+DEBUG:visited:https://hds.harvard.edu/home
+DEBUG:extracted:('https://hds.harvard.edu/home', 'ADDRESS', ('Cambridge,', 'Massachusetts ', '02138'))
+DEBUG:visited:https://healthequityinnativeamerica.com/cart
+DEBUG:extracted:('https://healthequityinnativeamerica.com/cart', 'EMAIL', 'NativeHealth@mit.edu')
+DEBUG:visited:https://hmsc.harvard.edu/hear
+DEBUG:extracted:('https://hmsc.harvard.edu/hear', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://library.hds.harvard.edu/home
+DEBUG:extracted:('https://library.hds.harvard.edu/home', 'ADDRESS', ('Cambridge,', 'Massachusetts ', '02138'))
+DEBUG:visited:https://mcz.harvard.edu/
+DEBUG:visited:https://meded.hms.harvard.edu/home
+DEBUG:extracted:('https://meded.hms.harvard.edu/home', 'ADDRESS', ('Boston,', 'MA', '02115'))
+DEBUG:visited:https://twitter.com/hgse
+DEBUG:extracted:('https://twitter.com/hgse', 'EMAIL', 'logo46x38@2x.png')
+DEBUG:visited:https://www.health.harvard.edu/blog
+DEBUG:extracted:('https://www.health.harvard.edu/blog', 'PHONE', '195-021-0093')
+DEBUG:visited:https://www.health.harvard.edu/cart
+DEBUG:visited:https://www.radcliffe.harvard.edu/#main
+DEBUG:extracted:('https://www.radcliffe.harvard.edu/#main', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://alumni.hms.harvard.edu
+DEBUG:extracted:('http://alumni.hms.harvard.edu', 'PHONE', '(617) 384-8500')
+DEBUG:extracted:('http://alumni.hms.harvard.edu', 'EMAIL', 'loa.gladys@gmail.com')
+DEBUG:extracted:('http://alumni.hms.harvard.edu', 'ADDRESS', ('Boston,', 'MA', '02215'))
+DEBUG:visited:http://alumni.hms.harvard.edu/
+DEBUG:extracted:('http://alumni.hms.harvard.edu/', 'PHONE', '(617) 384-8500')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/', 'EMAIL', 'loa.gladys@gmail.com')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/', 'ADDRESS', ('Boston,', 'MA', '02215'))
+DEBUG:visited:http://my.hms.harvard.edu/
+DEBUG:extracted:('http://my.hms.harvard.edu/', 'PHONE', '617-432-2000')
+DEBUG:extracted:('http://my.hms.harvard.edu/', 'EMAIL', 'someone@example.com')
+DEBUG:extracted:('http://my.hms.harvard.edu/', 'EMAIL', 'someone@example.com')
+DEBUG:visited:http://www.hbs.edu/news/
+DEBUG:extracted:('http://www.hbs.edu/news/', 'EMAIL', 'news@hbs.edu')
+DEBUG:extracted:('http://www.hbs.edu/news/', 'EMAIL', 'news@hbs.edu')
+DEBUG:extracted:('http://www.hbs.edu/news/', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://extension.harvard.edu/blog/
+DEBUG:visited:https://hdsadmissionsblog.com/home/
+DEBUG:extracted:('https://hdsadmissionsblog.com/home/', 'EMAIL', 'ask_students@hds.harvard.edu')
+DEBUG:extracted:('https://hdsadmissionsblog.com/home/', 'EMAIL', 'ask_students@hds.harvard.edu')
+DEBUG:visited:https://leadlocally.community.harvard.edu/feed/
+DEBUG:visited:https://my.hds.harvard.edu
+DEBUG:visited:https://professional.dce.harvard.edu/blog/
+DEBUG:visited:https://summer.harvard.edu/blog/
+DEBUG:visited:https://www.hbs.edu/about
+DEBUG:extracted:('https://www.hbs.edu/about', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.massgeneral.org/news/
+DEBUG:extracted:('https://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('https://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('https://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('https://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('https://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('https://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('https://www.massgeneral.org/news/', 'PHONE', '617-726-2000')
+DEBUG:visited:https://advances.massgeneral.org/
+DEBUG:extracted:('https://advances.massgeneral.org/', 'PHONE', '617-726-2000')
+DEBUG:visited:http://www.massgeneral.org
+DEBUG:extracted:('http://www.massgeneral.org', 'PHONE', '617-726-2000')
+DEBUG:visited:http://www.massgeneral.org/
+DEBUG:extracted:('http://www.massgeneral.org/', 'PHONE', '617-726-2000')
+DEBUG:visited:http://www.massgeneral.org/news/
+DEBUG:extracted:('http://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('http://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('http://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('http://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('http://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('http://www.massgeneral.org/news/', 'PHONE', '617-726-2206')
+DEBUG:extracted:('http://www.massgeneral.org/news/', 'PHONE', '617-726-2000')
+DEBUG:visited:https://www.seas.harvard.edu/msmba
+DEBUG:extracted:('https://www.seas.harvard.edu/msmba', 'ADDRESS', ('Allston,', 'MA', '02134'))
+DEBUG:extracted:('https://www.seas.harvard.edu/msmba', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/2
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/2', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/1
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/1', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/3
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/3', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/4
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/4', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/5
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/5', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/6
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/6', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/7
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/7', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/8
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/8', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/9
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/9', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://hr.harvard.edu/
+DEBUG:extracted:('http://hr.harvard.edu/', 'EMAIL', 'phishing@harvard.edu')
+DEBUG:extracted:('http://hr.harvard.edu/', 'EMAIL', 'phishing@harvard.edu')
+DEBUG:extracted:('http://hr.harvard.edu/', 'EMAIL', 'phishing@harvard.edu')
+DEBUG:extracted:('http://hr.harvard.edu/', 'EMAIL', 'HHRWebmaster@harvard.edu')
+DEBUG:visited:https://outingsandinnings.harvard.edu/
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 15160
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 15160
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 15160
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.87625
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP not active
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR not active
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5083188232275871
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.87625
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP not active
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR not active
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:visited:https://outingsandinnings.harvard.edu
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 15160
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 15160
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 15160
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.87625
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP not active
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR not active
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5094930261722946
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.87625
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP not active
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR not active
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:visited:https://hr.harvard.edu/
+DEBUG:extracted:('https://hr.harvard.edu/', 'EMAIL', 'phishing@harvard.edu')
+DEBUG:extracted:('https://hr.harvard.edu/', 'EMAIL', 'phishing@harvard.edu')
+DEBUG:extracted:('https://hr.harvard.edu/', 'EMAIL', 'phishing@harvard.edu')
+DEBUG:extracted:('https://hr.harvard.edu/', 'EMAIL', 'HHRWebmaster@harvard.edu')
+DEBUG:visited:https://innovationfund.evp.harvard.edu/home
+DEBUG:extracted:('https://innovationfund.evp.harvard.edu/home', 'EMAIL', 'administrative_innovation@harvard.edu')
+DEBUG:extracted:('https://innovationfund.evp.harvard.edu/home', 'EMAIL', 'administrative_innovation@harvard.edu')
+DEBUG:extracted:('https://innovationfund.evp.harvard.edu/home', 'EMAIL', 'administrative_innovation@harvard.edu')
+DEBUG:extracted:('https://innovationfund.evp.harvard.edu/home', 'EMAIL', 'administrative_innovation@harvard.edu')
+DEBUG:visited:https://innovationfund.evp.harvard.edu/
+DEBUG:extracted:('https://innovationfund.evp.harvard.edu/', 'EMAIL', 'administrative_innovation@harvard.edu')
+DEBUG:extracted:('https://innovationfund.evp.harvard.edu/', 'EMAIL', 'administrative_innovation@harvard.edu')
+DEBUG:extracted:('https://innovationfund.evp.harvard.edu/', 'EMAIL', 'administrative_innovation@harvard.edu')
+DEBUG:extracted:('https://innovationfund.evp.harvard.edu/', 'EMAIL', 'administrative_innovation@harvard.edu')
+DEBUG:visited:http://www.massgeneral.org/about/
+DEBUG:extracted:('http://www.massgeneral.org/about/', 'PHONE', '617-726-2000')
+DEBUG:extracted:('http://www.massgeneral.org/about/', 'PHONE', '617-726-2000')
+DEBUG:extracted:('http://www.massgeneral.org/about/', 'PHONE', '617-726-2000')
+DEBUG:extracted:('http://www.massgeneral.org/about/', 'PHONE', '617-726-2000')
+DEBUG:visited:http://www.pancreasfoundation.org/
+DEBUG:visited:https://www.aha.org/
+DEBUG:extracted:('https://www.aha.org/', 'PHONE', '312-422-3000')
+DEBUG:extracted:('https://www.aha.org/', 'PHONE', '202-638-1100')
+DEBUG:extracted:('https://www.aha.org/', 'PHONE', '800-424-4301')
+DEBUG:extracted:('https://www.aha.org/', 'EMAIL', 'AHAhelp@aha.org')
+DEBUG:extracted:('https://www.aha.org/', 'EMAIL', 'AHAhelp@aha.org')
+DEBUG:visited:https://equity.aha.org/
+DEBUG:visited:https://www.aha.org
+DEBUG:extracted:('https://www.aha.org', 'PHONE', '312-422-3000')
+DEBUG:extracted:('https://www.aha.org', 'PHONE', '202-638-1100')
+DEBUG:extracted:('https://www.aha.org', 'PHONE', '800-424-4301')
+DEBUG:extracted:('https://www.aha.org', 'EMAIL', 'AHAhelp@aha.org')
+DEBUG:extracted:('https://www.aha.org', 'EMAIL', 'AHAhelp@aha.org')
+DEBUG:visited:https://www.intersocietal.org/vein/
+DEBUG:extracted:('https://www.intersocietal.org/vein/', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://www.intersocietal.org/vein/', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://www.intersocietal.org/vein/', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://www.intersocietal.org/vein/', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://www.intersocietal.org/vein/', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://www.intersocietal.org/vein/', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://www.intersocietal.org/vein/', 'PHONE', '(999) 999-9999')
+DEBUG:visited:https://intersocietal.org
+DEBUG:extracted:('https://intersocietal.org', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org', 'PHONE', '(999) 999-9999')
+DEBUG:visited:https://iaconlineaccreditation.org/
+DEBUG:visited:https://intersocietal.org/news/
+DEBUG:extracted:('https://intersocietal.org/news/', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org/news/', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org/news/', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org/news/', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org/news/', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org/news/', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org/news/', 'PHONE', '(999) 999-9999')
+DEBUG:visited:https://alumni.harvard.edu/
+DEBUG:visited:https://college.harvard.edu/guides
+DEBUG:extracted:('https://college.harvard.edu/guides', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:extracted:('https://college.harvard.edu/guides', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:extracted:('https://college.harvard.edu/guides', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:extracted:('https://college.harvard.edu/guides', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://dce.harvard.edu/about/
+DEBUG:visited:https://extension.harvard.edu/about/
+DEBUG:visited:https://extension.harvard.edu/forms/
+DEBUG:visited:https://extension.harvard.edu/login/
+DEBUG:extracted:('https://extension.harvard.edu/login/', 'PHONE', '(617) 495-4024')
+DEBUG:extracted:('https://extension.harvard.edu/login/', 'EMAIL', 'inquiry@extension.harvard.edu')
+DEBUG:visited:https://gsas.harvard.edu/#top
+DEBUG:extracted:('https://gsas.harvard.edu/#top', 'PHONE', '617-495-5315')
+DEBUG:extracted:('https://gsas.harvard.edu/#top', 'PHONE', '617-495-2928')
+DEBUG:extracted:('https://gsas.harvard.edu/#top', 'EMAIL', 'gsas@fas.harvard.edu')
+DEBUG:extracted:('https://gsas.harvard.edu/#top', 'EMAIL', 'gsas@fas.harvard.edu')
+DEBUG:extracted:('https://gsas.harvard.edu/#top', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/2
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/2', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/1
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/1', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/3
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/3', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/4
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/4', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/5
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/5', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/6
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/6', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/7
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/7', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/8
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/8', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/9
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/9', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardfilmarchive.org/#agenda
+DEBUG:visited:https://hls.harvard.edu/about/
+DEBUG:visited:https://hollis.harvard.edu/
+DEBUG:visited:https://intersocietal.org/legal/
+DEBUG:extracted:('https://intersocietal.org/legal/', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org/legal/', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org/legal/', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org/legal/', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org/legal/', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org/legal/', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org/legal/', 'PHONE', '(999) 999-9999')
+DEBUG:visited:https://mgmh.fas.harvard.edu/faq
+DEBUG:extracted:('https://mgmh.fas.harvard.edu/faq', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://my.hds.harvard.edu/
+DEBUG:visited:https://summer.harvard.edu/login/
+DEBUG:extracted:('https://summer.harvard.edu/login/', 'PHONE', '(617) 495-4024')
+DEBUG:extracted:('https://summer.harvard.edu/login/', 'EMAIL', 'inquiry@summer.harvard.edu')
+DEBUG:extracted:('https://summer.harvard.edu/login/', 'EMAIL', 'inquiry@summer.harvard.edu')
+DEBUG:visited:https://toservebetter.harvard.edu
+DEBUG:visited:https://www.alumni.hbs.edu/
+DEBUG:extracted:('https://www.alumni.hbs.edu/', 'EMAIL', 'gifts@hbs.edu')
+DEBUG:extracted:('https://www.alumni.hbs.edu/', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:http://wilderness.hbs.edu/
+DEBUG:visited:https://www.babyfriendlyusa.org/about/
+DEBUG:visited:https://www.babyfriendlyusa.org/
+DEBUG:visited:https://www.harvard.edu/about/
+DEBUG:visited:http://toservebetter.harvard.edu
+DEBUG:visited:https://www.harvard.edu/visit/
+DEBUG:visited:https://www.harvard.edu/tours/
+DEBUG:extracted:('https://www.harvard.edu/tours/', 'EMAIL', 'visitor_center@harvard.edu')
+DEBUG:extracted:('https://www.harvard.edu/tours/', 'EMAIL', 'visitor_center@harvard.edu')
+DEBUG:extracted:('https://www.harvard.edu/tours/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:extracted:('https://www.harvard.edu/tours/', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://harvardvisitorcenter.stqry.app
+DEBUG:visited:https://www.hbs.edu/alumni
+DEBUG:extracted:('https://www.hbs.edu/alumni', 'EMAIL', 'gifts@hbs.edu')
+DEBUG:extracted:('https://www.hbs.edu/alumni', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.health.harvard.edu/author
+DEBUG:extracted:('https://www.health.harvard.edu/author', 'PHONE', '195-021-0093')
+DEBUG:visited:https://www.health.harvard.edu/topics
+DEBUG:extracted:('https://www.health.harvard.edu/topics', 'PHONE', '195-021-0093')
+DEBUG:visited:https://www.library.hbs.edu/Ask-Us
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'PHONE', '617-495-6782')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'acaracuzzo@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'acaracuzzo@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'specialcollectionsref@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'specialcollectionsref@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'b4bresearch@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'b4bresearch@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'ssilverthorne@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'ssilverthorne@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'EMAIL', 'infoservices@hbs.edu')
+DEBUG:extracted:('https://www.library.hbs.edu/Ask-Us', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.massgeneral.org/about/
+DEBUG:extracted:('https://www.massgeneral.org/about/', 'PHONE', '617-726-2000')
+DEBUG:extracted:('https://www.massgeneral.org/about/', 'PHONE', '617-726-2000')
+DEBUG:extracted:('https://www.massgeneral.org/about/', 'PHONE', '617-726-2000')
+DEBUG:extracted:('https://www.massgeneral.org/about/', 'PHONE', '617-726-2000')
+DEBUG:visited:http://facebook.com/harvard
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/10
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/10', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/11
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/11', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/12
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/12', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://twitter.com/KIPP
+DEBUG:extracted:('https://twitter.com/KIPP', 'EMAIL', 'logo46x38@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/13
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/13', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/14
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/14', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/15
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/15', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/16
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/16', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/17
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/17', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/18
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/18', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/19
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/19', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/20
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/20', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/21
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/21', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/22
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/22', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/23
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/23', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/24
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/24', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://twitter.com/LAPhil
+DEBUG:extracted:('https://twitter.com/LAPhil', 'EMAIL', 'logo46x38@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/25
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/25', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/26
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/26', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/27
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/27', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/28
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/28', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/29
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/29', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/30
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/30', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/31
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/31', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/32
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/32', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/33
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/33', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/34
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/34', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/35
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/35', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/36
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/36', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/37
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/37', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/38
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/38', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/39
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/39', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/40
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/40', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/41
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/41', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/42
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/42', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/43
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/43', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/44
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/44', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/45
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/45', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/46
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/46', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/47
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/47', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/48
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/48', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/49
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/49', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/50
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/50', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/51
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/51', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/52
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/52', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/53
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/53', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/54
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/54', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/55
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/55', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/56
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/56', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/57
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/57', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/58
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/58', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/59
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/59', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/60
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/60', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/61
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/61', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/62
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/62', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/63
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/63', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/64
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/64', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/65
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/65', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/66
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/66', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/67
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/67', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/68
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/68', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/69
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/69', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/70
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/70', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/71
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/71', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/72
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/72', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/73
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/73', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/74
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/74', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/75
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/75', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/76
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/76', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/77
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/77', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/78
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/78', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/79
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/79', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/80
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/80', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/81
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/81', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/82
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/82', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/83
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/83', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/84
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/84', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/85
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/85', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/86
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/86', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/87
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/87', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/88
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/88', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/89
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/89', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/90
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/90', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/91
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/91', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/92
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/92', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/93
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/93', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/94
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/94', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/95
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/95', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/96
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/96', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/97
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/97', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/98
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/98', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/99
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/99', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://hr.harvard.edu/faq
+DEBUG:extracted:('http://hr.harvard.edu/faq', 'EMAIL', 'HHRWebmaster@harvard.edu')
+DEBUG:visited:http://instagram.com/harvard
+DEBUG:visited:http://professional.dce.harvard.edu/faculty
+DEBUG:visited:http://twitter.com/harvard
+DEBUG:extracted:('http://twitter.com/harvard', 'EMAIL', 'logo46x38@2x.png')
+DEBUG:visited:http://www.hbs.edu/mba/
+DEBUG:extracted:('http://www.hbs.edu/mba/', 'EMAIL', 'admissions@hbs.edu')
+DEBUG:extracted:('http://www.hbs.edu/mba/', 'EMAIL', 'admissions@hbs.edu')
+DEBUG:extracted:('http://www.hbs.edu/mba/', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:http://www.usa.gov/
+DEBUG:extracted:('http://www.usa.gov/', 'PHONE', '844-872-4681')
+DEBUG:visited:http://www.usa.gov/health
+DEBUG:extracted:('http://www.usa.gov/health', 'PHONE', '844-872-4681')
+DEBUG:visited:http://www.usa.gov/voting
+DEBUG:extracted:('http://www.usa.gov/voting', 'PHONE', '844-872-4681')
+DEBUG:visited:https://twitter.com/USAgov
+DEBUG:extracted:('https://twitter.com/USAgov', 'EMAIL', 'logo46x38@2x.png')
+DEBUG:visited:https://www.facebook.com/USAgov
+DEBUG:visited:https://alumni.extension.harvard.edu/donate/
+DEBUG:extracted:('https://alumni.extension.harvard.edu/donate/', 'PHONE', '(617) 998-9631')
+DEBUG:extracted:('https://alumni.extension.harvard.edu/donate/', 'EMAIL', 'jill_felicio@harvard.edu')
+DEBUG:extracted:('https://alumni.extension.harvard.edu/donate/', 'EMAIL', 'jill_felicio@harvard.edu')
+DEBUG:visited:https://alumni.extension.harvard.edu/events/
+DEBUG:visited:https://alumni.extension.harvard.edu/search/
+DEBUG:visited:https://bit.ly/3C1MR18
+DEBUG:extracted:('https://bit.ly/3C1MR18', 'PHONE', '617-495-2779')
+DEBUG:extracted:('https://bit.ly/3C1MR18', 'PHONE', '617-496-5794')
+DEBUG:extracted:('https://bit.ly/3C1MR18', 'EMAIL', 'chsi@fas.harvard.edu')
+DEBUG:extracted:('https://bit.ly/3C1MR18', 'EMAIL', 'chsi@fas.harvard.edu')
+DEBUG:extracted:('https://bit.ly/3C1MR18', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://bit.ly/
+DEBUG:visited:https://bitly.com
+DEBUG:visited:https://dev.bitly.com/
+DEBUG:extracted:('https://dev.bitly.com/', 'EMAIL', 'api@bit.ly')
+DEBUG:visited:http://instagram.com/bitly
+DEBUG:visited:https://bitly.com/blog/
+DEBUG:visited:https://bitly.com/blog
+DEBUG:visited:https://bitly.com/pages
+DEBUG:visited:https://twitter.com/bitly
+DEBUG:extracted:('https://twitter.com/bitly', 'EMAIL', 'logo46x38@2x.png')
+DEBUG:visited:https://www.facebook.com/bitly
+DEBUG:visited:https://www.instagram.com/bitly/
+DEBUG:visited:https://digital.hbs.edu/
+DEBUG:extracted:('https://digital.hbs.edu/', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://digital.hbs.edu
+DEBUG:extracted:('https://digital.hbs.edu', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://twitter.com/dighbs
+DEBUG:extracted:('https://twitter.com/dighbs', 'EMAIL', 'logo46x38@2x.png')
+DEBUG:visited:http://www.hbs.edu/gender/
+DEBUG:extracted:('http://www.hbs.edu/gender/', 'EMAIL', 'gender@hbs.edu')
+DEBUG:visited:https://extension.harvard.edu/events/
+DEBUG:visited:https://extension.harvard.edu/search/
+DEBUG:visited:https://harvardartmuseums.org/faq
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'PHONE', '617-495-2392')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'PHONE', '(617) 495-9400')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'alpine-clipboard@0.1.x')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'alpine@v2.x.x')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'alison_cariens@harvard.edu')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'alison_cariens@harvard.edu')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'am_collectionsmanagement@harvard.edu')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'am_collectionsmanagement@harvard.edu')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'am_divr@harvard.edu')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'am_divr@harvard.edu')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'am_campusloans@harvard.edu')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'am_campusloans@harvard.edu')
+DEBUG:extracted:('https://harvardartmuseums.org/faq', 'EMAIL', 'jennifer_aubin@harvard.edu')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/10
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/10', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/11
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/11', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/12
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/12', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/13
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/13', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/14
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/14', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/15
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/15', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/16
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/16', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/17
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/17', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/18
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/18', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/19
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/19', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/20
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/20', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/21
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/21', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/22
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/22', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/23
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/23', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/24
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/24', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/25
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/25', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/26
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/26', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/27
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/27', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/28
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/28', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/29
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/29', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/30
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/30', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/31
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/31', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/32
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/32', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/33
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/33', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/34
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/34', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/35
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/35', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/36
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/36', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/37
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/37', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/38
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/38', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/39
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/39', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/40
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/40', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/41
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/41', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/42
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/42', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/43
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/43', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/44
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/44', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/45
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/45', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/46
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/46', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/47
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/47', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/48
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/48', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/49
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/49', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/50
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/50', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/51
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/51', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/52
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/52', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/53
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/53', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/54
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/54', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/55
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/55', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/56
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/56', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/57
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/57', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/58
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/58', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/59
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/59', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/60
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/60', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/61
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/61', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/62
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/62', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/63
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/63', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/64
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/64', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/65
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/65', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/66
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/66', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/67
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/67', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/68
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/68', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/69
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/69', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/70
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/70', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/71
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/71', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/72
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/72', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/73
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/73', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/74
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/74', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/75
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/75', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/76
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/76', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/77
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/77', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/78
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/78', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/79
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/79', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/80
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/80', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/81
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/81', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/82
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/82', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/83
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/83', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/84
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/84', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/85
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/85', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/86
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/86', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/87
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/87', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/88
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/88', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/89
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/89', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/90
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/90', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/91
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/91', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/92
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/92', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/93
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/93', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/94
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/94', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/95
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/95', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/96
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/96', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/97
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/97', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/98
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/98', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardbusinessschool.tumblr.com/page/99
+DEBUG:extracted:('https://harvardbusinessschool.tumblr.com/page/99', 'EMAIL', '1@2x.png')
+DEBUG:visited:https://harvardforest.fas.harvard.edu/faq
+DEBUG:extracted:('https://harvardforest.fas.harvard.edu/faq', 'PHONE', '(978) 724-3302')
+DEBUG:extracted:('https://harvardforest.fas.harvard.edu/faq', 'PHONE', '(978) 724-3595')
+DEBUG:visited:https://hds.harvard.edu
+DEBUG:extracted:('https://hds.harvard.edu', 'ADDRESS', ('Cambridge,', 'Massachusetts ', '02138'))
+DEBUG:visited:https://hr.harvard.edu/faq
+DEBUG:extracted:('https://hr.harvard.edu/faq', 'EMAIL', 'HHRWebmaster@harvard.edu')
+DEBUG:visited:https://intersocietal.org/2021/11
+DEBUG:extracted:('https://intersocietal.org/2021/11', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org/2021/11', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org/2021/11', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org/2021/11', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org/2021/11', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org/2021/11', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org/2021/11', 'PHONE', '(999) 999-9999')
+DEBUG:visited:https://intersocietal.org/2022/02
+DEBUG:extracted:('https://intersocietal.org/2022/02', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org/2022/02', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://intersocietal.org/2022/02', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org/2022/02', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://intersocietal.org/2022/02', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org/2022/02', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://intersocietal.org/2022/02', 'PHONE', '(999) 999-9999')
+DEBUG:visited:https://nsf.gov#navbarid
+DEBUG:extracted:('https://nsf.gov#navbarid', 'PHONE', '(703) 292-5111')
+DEBUG:extracted:('https://nsf.gov#navbarid', 'PHONE', '(800) 877-8339')
+DEBUG:extracted:('https://nsf.gov#navbarid', 'PHONE', '(800) 281-8749')
+DEBUG:extracted:('https://nsf.gov#navbarid', 'ADDRESS', ('Alexandria,', 'Virginia ', '22314'))
+DEBUG:visited:https://nsf.gov/nsb/
+DEBUG:extracted:('https://nsf.gov/nsb/', 'EMAIL', 'NationalScienceBrd@nsf.gov')
+DEBUG:extracted:('https://nsf.gov/nsb/', 'EMAIL', 'NSB-Webmaster@nsf.gov')
+DEBUG:visited:https://www.nsf.gov/
+DEBUG:extracted:('https://www.nsf.gov/', 'PHONE', '(703) 292-5111')
+DEBUG:extracted:('https://www.nsf.gov/', 'PHONE', '(800) 877-8339')
+DEBUG:extracted:('https://www.nsf.gov/', 'PHONE', '(800) 281-8749')
+DEBUG:extracted:('https://www.nsf.gov/', 'ADDRESS', ('Alexandria,', 'Virginia ', '22314'))
+DEBUG:visited:https://nsf.gov/social/
+DEBUG:extracted:('https://nsf.gov/social/', 'PHONE', '(703) 292-5111')
+DEBUG:extracted:('https://nsf.gov/social/', 'PHONE', '(800) 877-8339')
+DEBUG:extracted:('https://nsf.gov/social/', 'PHONE', '(800) 281-8749')
+DEBUG:extracted:('https://nsf.gov/social/', 'ADDRESS', ('Alexandria,', 'Virginia ', '22314'))
+DEBUG:visited:https://professional.dce.harvard.edu/faculty
+DEBUG:visited:https://professional.dce.harvard.edu/search/
+DEBUG:visited:https://researchers.mgh.harvard.edu/?page=2
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/?page=2', 'PHONE', '617-726-2000')
+DEBUG:visited:https://researchers.mgh.harvard.edu/?page=1
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/?page=1', 'PHONE', '617-726-2000')
+DEBUG:visited:https://researchers.mgh.harvard.edu/?page=3
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/?page=3', 'PHONE', '617-726-2000')
+DEBUG:visited:https://researchers.mgh.harvard.edu/?page=4
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/?page=4', 'PHONE', '617-726-2000')
+DEBUG:visited:https://researchers.mgh.harvard.edu/?page=5
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/?page=5', 'PHONE', '617-726-2000')
+DEBUG:visited:https://researchers.mgh.harvard.edu/?page=6
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/?page=6', 'PHONE', '617-726-2000')
+DEBUG:visited:https://researchers.mgh.harvard.edu/?page=7
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/?page=7', 'PHONE', '617-726-2000')
+DEBUG:visited:https://researchers.mgh.harvard.edu/?page=8
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/?page=8', 'PHONE', '617-726-2000')
+DEBUG:visited:https://researchers.mgh.harvard.edu/?page=9
+DEBUG:extracted:('https://researchers.mgh.harvard.edu/?page=9', 'PHONE', '617-726-2000')
+DEBUG:visited:https://summer.harvard.edu/events/
+DEBUG:visited:https://summer.harvard.edu/search/
+DEBUG:visited:https://twitter.com/harvard
+DEBUG:extracted:('https://twitter.com/harvard', 'EMAIL', 'logo46x38@2x.png')
+DEBUG:visited:https://www.gse.harvard.edu/library
+DEBUG:extracted:('https://www.gse.harvard.edu/library', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:https://www.harvard.edu/campus/
+DEBUG:visited:https://commencement.harvard.edu/
+DEBUG:extracted:('https://commencement.harvard.edu/', 'EMAIL', 'commencement@harvard.edu')
+DEBUG:extracted:('https://commencement.harvard.edu/', 'EMAIL', 'commencement@harvard.edu')
+DEBUG:visited:https://www.hbs.edu/faculty
+DEBUG:extracted:('https://www.hbs.edu/faculty', 'PHONE', '159-022-0004')
+DEBUG:extracted:('https://www.hbs.edu/faculty', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.hbs.edu/mba/
+DEBUG:extracted:('https://www.hbs.edu/mba/', 'EMAIL', 'admissions@hbs.edu')
+DEBUG:extracted:('https://www.hbs.edu/mba/', 'EMAIL', 'admissions@hbs.edu')
+DEBUG:extracted:('https://www.hbs.edu/mba/', 'ADDRESS', ('Boston,', 'MA', '02163'))
+DEBUG:visited:https://www.health.harvard.edu/blog#app
+DEBUG:extracted:('https://www.health.harvard.edu/blog#app', 'PHONE', '195-021-0093')
+DEBUG:visited:https://www.health.harvard.edu/cart#app
+DEBUG:visited:https://www.instagram.com/usagov/
+DEBUG:extracted:('https://www.instagram.com/usagov/', 'PHONE', '800-222-1222')
+DEBUG:visited:https://www.intersocietal.org/2021/10
+DEBUG:extracted:('https://www.intersocietal.org/2021/10', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://www.intersocietal.org/2021/10', 'PHONE', '800-838-2110')
+DEBUG:extracted:('https://www.intersocietal.org/2021/10', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://www.intersocietal.org/2021/10', 'PHONE', '443-973-3239')
+DEBUG:extracted:('https://www.intersocietal.org/2021/10', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://www.intersocietal.org/2021/10', 'PHONE', '866-663-5663')
+DEBUG:extracted:('https://www.intersocietal.org/2021/10', 'PHONE', '(999) 999-9999')
+DEBUG:visited:https://www.nsf.gov/nsb/
+DEBUG:extracted:('https://www.nsf.gov/nsb/', 'EMAIL', 'NationalScienceBrd@nsf.gov')
+DEBUG:extracted:('https://www.nsf.gov/nsb/', 'EMAIL', 'NSB-Webmaster@nsf.gov')
+DEBUG:visited:https://www.nsf.gov/rss/
+DEBUG:extracted:('https://www.nsf.gov/rss/', 'PHONE', '(703) 292-5111')
+DEBUG:extracted:('https://www.nsf.gov/rss/', 'PHONE', '(800) 877-8339')
+DEBUG:extracted:('https://www.nsf.gov/rss/', 'PHONE', '(800) 281-8749')
+DEBUG:extracted:('https://www.nsf.gov/rss/', 'ADDRESS', ('Alexandria,', 'Virginia ', '22314'))
+DEBUG:visited:https://www.nsf.gov/social/
+DEBUG:extracted:('https://www.nsf.gov/social/', 'PHONE', '(703) 292-5111')
+DEBUG:extracted:('https://www.nsf.gov/social/', 'PHONE', '(800) 877-8339')
+DEBUG:extracted:('https://www.nsf.gov/social/', 'PHONE', '(800) 281-8749')
+DEBUG:extracted:('https://www.nsf.gov/social/', 'ADDRESS', ('Alexandria,', 'Virginia ', '22314'))
+DEBUG:visited:https://www.summer.harvard.edu/events/
+DEBUG:visited:https://www.youtube.com/harvard
+DEBUG:extracted:('https://www.youtube.com/harvard', 'EMAIL', 'wght@300..900')
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 686940
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 267666
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 686940
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 267666
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 267666
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 267667
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 267666
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.10413649195399555
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4283661729409182
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.10413649195399555
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4283661729409182
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:visited:https://www.youtube.com/
+DEBUG:extracted:('https://www.youtube.com/', 'EMAIL', 'wght@300..900')
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 268544
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 255461
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 259263
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 255461
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 255461
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 255462
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 255461
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.015586835023100048
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4587076688900869
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.015586835023100048
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4587076688900869
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:visited:https://www.youtube.com/usagov1
+DEBUG:extracted:('https://www.youtube.com/usagov1', 'EMAIL', 'wght@300..900')
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 756001
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 599821
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 756001
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 599821
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 599821
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 599822
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 599821
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.44459684913242853
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.44459684913242853
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:visited:http://alumni.hms.harvard.edu/give
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '617-384-8500')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '866-845-6596')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '866-845-6596')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '866-845-6596')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '800-922-1782')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '800-922-1782')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '800-922-1782')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '800-922-1782')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '866-845-6596')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '866-845-6596')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'PHONE', '(617) 384-8500')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'gladys_loa@hms.harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'donorsecuritygifts@harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'donorsecuritygifts@harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'donorsecuritygifts@harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'donorsecuritygifts@harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'giftplanning@hms.harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'giftplanning@hms.harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'giftplanning@hms.harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'giftplanning@hms.harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'donorsecuritygifts@harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'donorsecuritygifts@harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'giftplanning@hms.harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'EMAIL', 'giftplanning@hms.harvard.edu')
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'ADDRESS', ('Boston,', 'MA', '02241'))
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'ADDRESS', ('Boston,', 'MA', '02241'))
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'ADDRESS', ('Boston,', 'MA', '02241'))
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'ADDRESS', ('Boston,', 'MA', '02110'))
+DEBUG:extracted:('http://alumni.hms.harvard.edu/give', 'ADDRESS', ('Boston,', 'MA', '02215'))
+DEBUG:visited:http://convergeresearch.hms.harvard.edu/
+DEBUG:extracted:('http://convergeresearch.hms.harvard.edu/', 'EMAIL', 'converge@hms.harvard.edu')
+DEBUG:extracted:('http://convergeresearch.hms.harvard.edu/', 'EMAIL', 'converge@hms.harvard.edu')
+DEBUG:visited:http://www.mfdp.med.harvard.edu
+DEBUG:visited:http://www.mfdp.med.harvard.edu/
+DEBUG:visited:http://www.mfdp.med.harvard.edu/pfdi
+DEBUG:extracted:('http://www.mfdp.med.harvard.edu/pfdi', 'PHONE', '617-432-2413')
+DEBUG:extracted:('http://www.mfdp.med.harvard.edu/pfdi', 'PHONE', '617-432-1892')
+DEBUG:extracted:('http://www.mfdp.med.harvard.edu/pfdi', 'EMAIL', 'jessica_st.louis@hms.harvard.edu')
+DEBUG:extracted:('http://www.mfdp.med.harvard.edu/pfdi', 'EMAIL', 'jessica_st.louis@hms.harvard.edu')
+DEBUG:visited:http://ecommons.med.harvard.edu/
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'PHONE', '617-432-2000')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'PHONE', '(617) 432-2000')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'jason_obedzinski@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'OFA_Promotions@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'OFA_Promotions@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'OFA_Promotions@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'infosysgroup@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'infosysgroup@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'infosysgroup@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'infosysgroup@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'infosysgroup@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'infosysgroup@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'tlt@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'tlt@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'itservicedesk@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'EMAIL', 'itservicedesk@hms.harvard.edu')
+DEBUG:extracted:('http://ecommons.med.harvard.edu/', 'ADDRESS', ('Boston,', 'MA', '02215'))
+DEBUG:visited:https://oasis.med.harvard.edu/
+DEBUG:visited:http://www.schillingconsulting.com/
+DEBUG:extracted:('http://www.schillingconsulting.com/', 'ADDRESS', ('Madison,', 'WI', '53718'))
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/100
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/100', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/101
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/101', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/102
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/102', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/103
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/103', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/104
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/104', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/105
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/105', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/106
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/106', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/107
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/107', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/108
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/108', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/109
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/109', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/110
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/110', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/111
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/111', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/112
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/112', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/113
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/113', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/114
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/114', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/115
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/115', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/116
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/116', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/117
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/117', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/118
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/118', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/119
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/119', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/120
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/120', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/121
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/121', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/122
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/122', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/123
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/123', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/124
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/124', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://harvardbusinessschool.tumblr.com/page/125
+DEBUG:extracted:('http://harvardbusinessschool.tumblr.com/page/125', 'EMAIL', '1@2x.png')
+DEBUG:visited:http://hilr.dce.harvard.edu/courses/
+DEBUG:visited:http://hmnh.harvard.edu/shop
+DEBUG:extracted:('http://hmnh.harvard.edu/shop', 'PHONE', '(617) 495-3045')
+DEBUG:extracted:('http://hmnh.harvard.edu/shop', 'EMAIL', 'shop@hmnh.harvard.edu')
+DEBUG:extracted:('http://hmnh.harvard.edu/shop', 'EMAIL', 'shop@hmnh.harvard.edu')
+DEBUG:extracted:('http://hmnh.harvard.edu/shop', 'EMAIL', 'shop@hmnh.harvard.edu')
+DEBUG:extracted:('http://hmnh.harvard.edu/shop', 'EMAIL', 'shop@hmnh.harvard.edu')
+DEBUG:extracted:('http://hmnh.harvard.edu/shop', 'EMAIL', 'hmnh@hmsc.harvard.edu')
+DEBUG:extracted:('http://hmnh.harvard.edu/shop', 'EMAIL', 'hmnh@hmsc.harvard.edu')
+DEBUG:extracted:('http://hmnh.harvard.edu/shop', 'ADDRESS', ('Cambridge,', 'MA', '02138'))
+DEBUG:visited:http://hr.harvard.edu/jobs
+DEBUG:extracted:('http://hr.harvard.edu/jobs', 'EMAIL', 'employment@harvard.edu')
+DEBUG:extracted:('http://hr.harvard.edu/jobs', 'EMAIL', 'employment@harvard.edu')
+DEBUG:extracted:('http://hr.harvard.edu/jobs', 'EMAIL', 'HHRWebmaster@harvard.edu')
+DEBUG:visited:http://intranet.hsdm.harvard.edu/
+DEBUG:visited:http://wordpress.org
+DEBUG:visited:https://ma.tt/
+DEBUG:visited:https://krogsgard.com/
+DEBUG:visited:https://learn.wordpress.org/
+DEBUG:visited:https://wpvip.com/
+DEBUG:visited:https://dashboard.wpvip.com/

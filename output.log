@@ -1,266 +1,495 @@
-DEBUG:visited:https://www.cs.jhu.edu/~yarowsky/cs466.html
-DEBUG:visited:http://www.cs.jhu.edu/~yarowsky/
-DEBUG:extracted:('http://www.cs.jhu.edu/~yarowsky/', 'PHONE', '(410) 516-5372')
-DEBUG:extracted:('http://www.cs.jhu.edu/~yarowsky/', 'EMAIL', 'yarowsky@jhu.edu')
-DEBUG:extracted:('http://www.cs.jhu.edu/~yarowsky/', 'ADDRESS', ('Baltimore,', 'MD ', '21218'))
-DEBUG:visited:http://www.cs.jhu.edu/~yarowsky/sigdat.html
-DEBUG:visited:http://www.cs.jhu.edu
-DEBUG:extracted:('http://www.cs.jhu.edu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('http://www.cs.jhu.edu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('http://www.cs.jhu.edu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu
-DEBUG:extracted:('https://www.cs.jhu.edu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:http://www.cs.jhu.edu#menu
-DEBUG:extracted:('http://www.cs.jhu.edu#menu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('http://www.cs.jhu.edu#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('http://www.cs.jhu.edu#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu#menu
-DEBUG:extracted:('https://www.cs.jhu.edu#menu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/search/
-DEBUG:extracted:('https://www.cs.jhu.edu/search/', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/search/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/search/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/faculty/
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'yairamir@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'yairamir@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'rarora8@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'rarora8@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'vbraver1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'vbraver1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'randal@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'randal@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'yinzhi.cao@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'yinzhi.cao@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'AntonDahbura@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'AntonDahbura@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'darvish@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'darvish@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mdinitz1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mdinitz1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mdredze@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mdredze@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'kevinduh@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'kevinduh@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'eisner@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'eisner@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'sghorba1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'sghorba1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mgreen@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mgreen@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'hager@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'hager@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'shohenb2@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'shohenb2@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'daveho@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'daveho@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'chienming.huang@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'chienming.huang@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'phuang19@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'phuang19@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'abhishekjain@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'abhishekjain@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'xjin17@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'xjin17@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'pkaz@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'pkaz@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mkazhda1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mkazhda1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'phi@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'phi@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'skosara1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'skosara1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'blangme2@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'blangme2@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'xyli@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'xyli@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'xli113@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'xli113@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'tom@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'tom@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'aliu@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'aliu@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'madooei@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'madooei@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'more@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'more@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'nassir.navab@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'nassir.navab@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'rubin@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'rubin@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'salzberg@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'salzberg@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'ssaria1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'ssaria1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mschatz@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'mschatz@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'joanne@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'joanne@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'ishpits1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'ishpits1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'scott@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'scott@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'szalay@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'szalay@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'rht@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'rht@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'unberath@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'unberath@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'vandurme@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'vandurme@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'yarowsky@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'yarowsky@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'ayuille1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'ayuille1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/news/
-DEBUG:extracted:('https://www.cs.jhu.edu/news/', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/news/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/news/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/news/#menu
-DEBUG:extracted:('https://www.cs.jhu.edu/news/#menu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/news/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/news/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/seminars/
-DEBUG:extracted:('https://www.cs.jhu.edu/seminars/', 'PHONE', '410-516-8775')
-DEBUG:extracted:('https://www.cs.jhu.edu/seminars/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/seminars/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/
-DEBUG:extracted:('https://www.cs.jhu.edu/', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/#menu
-DEBUG:extracted:('https://www.cs.jhu.edu/#menu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/about/
-DEBUG:extracted:('https://www.cs.jhu.edu/about/', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/about/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/about/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/about/#menu
-DEBUG:extracted:('https://www.cs.jhu.edu/about/#menu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/about/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/about/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/search/#menu
-DEBUG:extracted:('https://www.cs.jhu.edu/search/#menu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/search/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/search/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/faculty/#menu
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'yairamir@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'yairamir@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'rarora8@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'rarora8@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'vbraver1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'vbraver1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'randal@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'randal@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'yinzhi.cao@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'yinzhi.cao@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'AntonDahbura@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'AntonDahbura@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'darvish@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'darvish@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mdinitz1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mdinitz1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mdredze@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mdredze@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'kevinduh@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'kevinduh@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'eisner@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'eisner@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'sghorba1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'sghorba1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mgreen@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mgreen@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'hager@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'hager@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'shohenb2@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'shohenb2@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'daveho@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'daveho@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'chienming.huang@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'chienming.huang@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'phuang19@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'phuang19@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'abhishekjain@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'abhishekjain@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'xjin17@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'xjin17@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'pkaz@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'pkaz@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mkazhda1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mkazhda1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'phi@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'phi@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'skosara1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'skosara1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'blangme2@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'blangme2@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'xyli@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'xyli@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'xli113@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'xli113@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'tom@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'tom@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'aliu@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'aliu@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'madooei@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'madooei@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'more@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'more@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'nassir.navab@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'nassir.navab@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'rubin@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'rubin@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'salzberg@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'salzberg@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'ssaria1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'ssaria1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mschatz@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'mschatz@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'joanne@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'joanne@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'ishpits1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'ishpits1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'scott@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'scott@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'szalay@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'szalay@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'rht@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'rht@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'unberath@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'unberath@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'vandurme@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'vandurme@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'yarowsky@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'yarowsky@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'ayuille1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'ayuille1@jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/faculty/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/events/
-DEBUG:extracted:('https://www.cs.jhu.edu/events/', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/events/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/events/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/events/#menu
-DEBUG:extracted:('https://www.cs.jhu.edu/events/#menu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/events/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/events/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/people/
-DEBUG:extracted:('https://www.cs.jhu.edu/people/', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/people/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/people/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/people/#menu
-DEBUG:extracted:('https://www.cs.jhu.edu/people/#menu', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/people/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/people/#menu', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:visited:https://www.cs.jhu.edu/cs-newsletter/
-DEBUG:extracted:('https://www.cs.jhu.edu/cs-newsletter/', 'PHONE', '(410) 516-4050')
-DEBUG:extracted:('https://www.cs.jhu.edu/cs-newsletter/', 'EMAIL', 'contactus@cs.jhu.edu')
-DEBUG:extracted:('https://www.cs.jhu.edu/cs-newsletter/', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 13
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 491
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 506
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 491
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 497
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 491
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 10
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.041294886181901906, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.0414976442238358, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04046415685645855, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04205324522400923, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.040629293951730316, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04222069711938178, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04018579200632224, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.03998878228325234, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04229254620974939, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.04598840806656613, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04325990429964031, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04203250872796956, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.041294886181901906
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.0414976442238358
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04046415685645855
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04205324522400923
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.040629293951730316
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04222069711938178
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgairan confidence = 0.04018579200632224
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.03998878228325234
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04229254620974939
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.04598840806656613
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04325990429964031
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 13
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 491
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 506
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 491
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 497
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 491
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 10
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.041294886181901906, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.0414976442238358, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04046415685645855, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04205324522400923, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.040629293951730316, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04222069711938178, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04018579200632224, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.03998878228325234, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04229254620974939, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.04598840806656613, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04325990429964031, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04203250872796956, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.041294886181901906
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.0414976442238358
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04046415685645855
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04205324522400923
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.040629293951730316
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04222069711938178
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgairan confidence = 0.04018579200632224
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.03998878228325234
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04229254620974939
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.04598840806656613
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04325990429964031
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+WARNING:bs4.dammit:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 13
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 491
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 506
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 491
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 497
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 491
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 10
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.041294886181901906, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.0414976442238358, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04046415685645855, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04205324522400923, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.040629293951730316, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04222069711938178, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04018579200632224, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.03998878228325234, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04229254620974939, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.04598840806656613, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04325990429964031, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04203250872796956, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.041294886181901906
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.0414976442238358
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04046415685645855
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04205324522400923
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.040629293951730316
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04222069711938178
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgairan confidence = 0.04018579200632224
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.03998878228325234
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04229254620974939
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.04598840806656613
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04325990429964031
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 13
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 491
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 506
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 491
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 497
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 491
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 10
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.041294886181901906, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.0414976442238358, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04046415685645855, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04205324522400923, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.040629293951730316, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04222069711938178, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04018579200632224, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.03998878228325234, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04229254620974939, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.04598840806656613, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04325990429964031, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04203250872796956, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.041294886181901906
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.0414976442238358
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04046415685645855
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04205324522400923
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.040629293951730316
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04222069711938178
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgairan confidence = 0.04018579200632224
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.03998878228325234
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04229254620974939
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.04598840806656613
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04325990429964031
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+WARNING:bs4.dammit:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+DEBUG:visited:https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x0c@i')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xbb@0')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xfc@f')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x05@ni')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xa6@c')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf0@b')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x14@t')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf5s@b')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x9a@po')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe6@m')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x12@m')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x88@bp')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x129@u')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xafU@2')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x14@i')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x87@0')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'nv8@v')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xb2T@o')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x9b@i')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x92@f')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xcd@4')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe1@s')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x14@3')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x0b@4')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf4@c')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xc2_@d')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x84@h')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf3@0')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xb20@l')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'M@o')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x85@x')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf5@ke')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xc6@z')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xeb-@1')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x9d@7p')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x83@q')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x8a@-l')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xa5x@y')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xebt@z')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'o@r')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf0@o')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xdf@0x')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x15@a')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xa2@-')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xd3@qj')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xec@2')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x996@5')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x8aG@x')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf2-j@s')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf7@p')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x81g_@y')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x94@8')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', '2@3')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xb1@p')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xd4@.')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xbe@1w')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xfb9@n')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x12@l')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x1e@u')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xd0@g')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf7@e')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x83S@0f')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xcb@j')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xc2@9')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe0a@1')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe0@3')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x1e@3')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xd6N@x')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x95@8')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x0c@j')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf1H@e')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf2@5')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xda@ul0')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe3r@x')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x8f@q')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xde@k')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xb3@y')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x80@h')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x91@l')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xbat@x')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xbf@n')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xc5L@pr')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x04V@o')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xb7@3')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x9az3@l')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xd9@z')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x12@c')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xed@w25')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf7@4')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xcd@b')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xbb@o')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf9a@r')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xc2@0')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xd8@.')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe9@t')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xeb_@v')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x96@k')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xea@z9')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x15@i')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xeb@8ajf')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xb2@1')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'D@9')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xfd@v')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x1cN@.')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x12h@e')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe1@m')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x85K@u')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xacpV@l')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x7f7@ug')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xb0wk@v')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x05@3')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xd0@y')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xf6@u')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe6@g')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xd8@5')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xbc@r')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xeb@cs')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xc7@y')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xb1@w')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x88n@r')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe0@k')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x06@s')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'm@3')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xdc@w')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x98@j')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xe5@v6')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xb4@0')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xaa@y')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x04@h')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xdb@i')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xfe@4')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xba@y')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xc3@b')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'xaf@o')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x02@-')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x8f@n')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/601.466.hw4.pdf', 'EMAIL', 'x1b@7')
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 13
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 491
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 506
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 491
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 497
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 491
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 10
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.041294886181901906, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.0414976442238358, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04046415685645855, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04205324522400923, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.040629293951730316, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04222069711938178, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04018579200632224, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.03998878228325234, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04229254620974939, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.04598840806656613, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04325990429964031, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04203250872796956, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.041294886181901906
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.0414976442238358
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04046415685645855
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04205324522400923
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.040629293951730316
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04222069711938178
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgairan confidence = 0.04018579200632224
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.03998878228325234
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04229254620974939
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.04598840806656613
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04325990429964031
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 13
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 491
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 506
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 491
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 497
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 491
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 10
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.041294886181901906, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.0414976442238358, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04046415685645855, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04205324522400923, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.040629293951730316, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04222069711938178, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04018579200632224, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.03998878228325234, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04229254620974939, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.04598840806656613, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04325990429964031, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04203250872796956, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.041294886181901906
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.0414976442238358
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04046415685645855
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04205324522400923
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.040629293951730316
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04222069711938178
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.06897417753202195
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07031528700931818
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgairan confidence = 0.04018579200632224
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.03998878228325234
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04229254620974939
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.04598840806656613
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04325990429964031
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04203250872796956
+WARNING:bs4.dammit:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.

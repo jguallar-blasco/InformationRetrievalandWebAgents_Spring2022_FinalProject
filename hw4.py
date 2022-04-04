@@ -119,10 +119,13 @@ def extract_information(address, html):
     results = []
     for match in re.findall('\d\d\d-\d\d\d-\d\d\d\d', str(html)):
         results.append((address, 'PHONE', match))
+        print(str(match))
     for match in re.findall('\(\d\d\d\) \d\d\d-\d\d\d\d', str(html)):
         results.append((address, 'PHONE', match))
-    for match in re.findall('([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)', str(html)):
+        print(str(match))
+    for match in re.findall('[\w\.-]+@[a-z0-9\.-]+', str(html)):
         results.append((address, 'EMAIL', match))
+        print(str(match))
     for match in re.findall('((?:[A-Z][a-z]+\s?)+[,])+\s?((?:[A-Z][a-z]*\s?[.]?)+)\s?(\d\d\d\d\d)', str(html)):
         results.append((address, 'ADDRESS', match))
     return results

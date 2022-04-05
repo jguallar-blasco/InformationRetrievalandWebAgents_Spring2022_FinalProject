@@ -89,7 +89,7 @@ def crawl(root, wanted_content=[], within_domain=True):
 
         try:
             req = request.urlopen(url)
-            html = req.read()
+            html = req.read().decode('utf-8')
 
             if req.headers['Content-Type'] not in wanted_content and wanted_content:
                 continue

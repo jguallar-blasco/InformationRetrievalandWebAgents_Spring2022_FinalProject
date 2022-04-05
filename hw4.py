@@ -89,7 +89,7 @@ def crawl(root, wanted_content=[], within_domain=True):
 
         try:
             req = request.urlopen(url)
-            html = req.read()
+            html = req.read().decode('utf-8')
 
             if req.headers['Content-Type'] not in wanted_content and wanted_content:
                 continue
@@ -119,13 +119,10 @@ def extract_information(address, html):
     results = []
     for match in re.findall('\d\d\d-\d\d\d-\d\d\d\d', str(html)):
         results.append((address, 'PHONE', match))
-        print(str(match))
     for match in re.findall('\(\d\d\d\) \d\d\d-\d\d\d\d', str(html)):
         results.append((address, 'PHONE', match))
-        print(str(match))
     for match in re.findall('[\w\.-]+@[a-z0-9\.-]+', str(html)):
         results.append((address, 'EMAIL', match))
-        print(str(match))
     for match in re.findall('((?:[A-Z][a-z]+\s?)+[,])+\s?((?:[A-Z][a-z]*\s?[.]?)+)\s?(\d\d\d\d\d)', str(html)):
         results.append((address, 'ADDRESS', match))
     return results

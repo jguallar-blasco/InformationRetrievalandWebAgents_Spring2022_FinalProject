@@ -7,15 +7,6 @@ from sklearn.metrics import classification_report
 class EOSClassifier:
     def train(self, trainX, trainY):
 
-        # HINT!!!!!
-        # (The following word lists might be very helpful.)
-        self.abbrevs = load_wordlist('classes/abbrevs')
-        self.sentence_internal = load_wordlist("classes/sentence_internal")
-        self.timeterms = load_wordlist("classes/timeterms")
-        self.titles = load_wordlist("classes/titles")
-        self.unlikely_proper_nouns = load_wordlist("classes/unlikely_proper_nouns")
-
-
         # In this part of the code, we're loading a Scikit-Learn model.
         # We're using a DecisionTreeClassifier... it's simple and lets you
         # focus on building good features.

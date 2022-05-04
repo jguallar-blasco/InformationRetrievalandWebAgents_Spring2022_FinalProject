@@ -20,16 +20,28 @@ class SegmentClassifier:
             1 if '>' in words else 0,
             
             # Ukrainian 
-            # Cyrillic chars
+            # Cyrillic letter GJE
             1 if re.search('[\u0453]', text) == 1 or re.search('[\u0403]', text) == 1 else 0,
-            1 if text.indexOf(), 
-            1 if text.indexOf(),
-            1 if text.indexOf(),
-            1 if text.indexOf(),
+            # Cyrillic letter IE
+            1 if re.search('[\u0454]', text) == 1 or re.search('[\u0404]', text) == 1 else 0,
+            # Cyrillic letter YI
+            1 if re.search('[\u0407]', text) == 1 or re.search('[\u0457]', text) == 1 else 0,
+            # Cyrillic letter Byelorussian-Ukrainian I
+            1 if re.search('[\u0456]', text) == 1 or re.search('[\u0406]', text) == 1 else 0,
 
 
             # Russian
-            # Cyrillic chars
+            # Cyrillic letter IO
+            1 if re.search('[\u0451]', text) == 1 or re.search('[\u0401]', text) == 1 else 0,
+            # Cyrillic letter HARD SIGN
+            1 if re.search('[\u044A]', text) == 1 or re.search('[\u042A]', text) == 1 else 0,
+            # Cyrillic letter YERU
+            1 if re.search('[\u042B]', text) == 1 or re.search('[\u044B]', text) == 1 else 0,
+            # Cyrillic letter E
+            1 if re.search('[\u044D]', text) == 1 or re.search('[\u042D]', text) == 1 else 0,
+
+
+
 
         ]
         return features

@@ -18,8 +18,19 @@ class SegmentClassifier:
             len(text.strip()),
             len(words),
             1 if '>' in words else 0,
-            # text.count(' '),
-            # sum(1 if w.isupper() else 0 for w in words)
+            
+            # Ukrainian 
+            # Cyrillic chars
+            1 if re.search('[\u0453]', text) == 1 or re.search('[\u0403]', text) == 1 else 0,
+            1 if text.indexOf(), 
+            1 if text.indexOf(),
+            1 if text.indexOf(),
+            1 if text.indexOf(),
+
+
+            # Russian
+            # Cyrillic chars
+
         ]
         return features
 

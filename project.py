@@ -1,5 +1,6 @@
-import tweepy as tw
+import sys
 import time
+import tweepy as tw
 import pandas as pd
 
 
@@ -32,49 +33,66 @@ def extract_tweet_count(client, lang):
     where given language requirement is met.'''
 
     query = 'Tweepy -lang:' + lang
-    response = client.get_recent_tweets_count(query, granularity='day')
+    response = client.get_recent_tweets_count(query, granularity='hour')
 
     tweet_count = 0
+    starts = []
+    ends = []
+
     for count in response.data:
         tweet_count += count['tweet_count']
+        starts.append(count['start'])
+        ends.append(count['end'])
 
-    return tweet_count
+    return tweet_count, [starts, ends]
 
 
-def extract_tweeps(client, lang):
+def extract_tweets(client, lang, time_list):
     '''Extract any Tweets from past week
     where given language requirement is met.'''
 
     query = 'Tweepy -lang:' + lang
-    response = client.get_recent_tweets_count(query, granularity='day')
+    tweets_list = []
 
-    # Creation of dataframe from tweets list
-    # Add or remove columns as you remove tweet information
+    for i, times in enumerate(time_list):
+        try:
+            s = times[0][i]
+            e = times[1][i]
+
+            response = client.search_recent_tweets(
+                query, max_results=100, start_time=s, end_time=e)
+            # The method returns a Response object, a named tuple with data, includes,
+            # errors, and meta fields
+
+            # In this case, the data field of the Response returned is a list of Tweet
+            # objects
+            tweets = response.data
+
+            # Pulling information from tweets iterable object
+            tweets_list_small = [[tweet.lang, tweet.text]
+                                 for tweet in tweets]
+
+            tweets_list.extend(tweets_list_small)
+
+        except BaseException as e:
+            print('failed on_status,', str(e))
+            time.sleep(3)
+
     tweets_df = pd.DataFrame(tweets_list)
-    path = 'uk.csv'
-    tweets_df.to_csv(path, index=False)
+    output_tweets(tweets_df, lang)
 
-    try:
-        # Creation of query method using parameters
-        tweets = tw.API.search_tweets(q='', lang=l, count=c)
-
-        # Pulling information from tweets iterable object
-        tweets_list = [[tweet.lang, tweet.text]
-                       for tweet in tweets]
-
-        # Creation of dataframe from tweets list
-        # Add or remove columns as you remove tweet information
-        tweets_df = pd.DataFrame(tweets_list)
-        path = l + '.csv'
-        tweets_df.to_csv(path, index=False)
-        return tweets_df
-
-    except BaseException as e:
-        print('failed on_status,', str(e))
-        time.sleep(3)
+    return tweets_df
 
 
-def format_input():
+def output_tweets(df, lang):
+    '''Export extracted tweets from
+    a given language as a .csv file.'''
+
+    path = lang + '.csv'
+    df.to_csv(path, index=False)
+
+
+def format_input(df):
     '''Use exported Tweets and mix together
     randomly to create input dataset.'''
 
@@ -82,16 +100,29 @@ def format_input():
 
 
 def main():
+    args = len(sys.argv)
 
-    client = oauth_tweepy()
+    if args < 3 and args > 2 and sys.argv[1] == 'extract':
+        client = oauth_tweepy()
 
-    tweets = []
+        df_list = []
+        times_lists = []
 
-    tweets.append(extract_tweeps(client, 'ru'))
-    tweets.append(extract_tweeps(client, 'uk'))
+        for l in ['uk', 'ru']:
+            count, time_list = extract_tweet_count(client, l)
+            print(l, ': ', count)
+            times_lists.append(time_list)
 
-    return
-    format_input(tweets)
+        df_list.append(extract_tweets(client, 'uk', times_lists[0]))
+        df_list.append(extract_tweets(client, 'ru', times_lists[0]))
+
+        format_input(df_list)
+
+    # else:
+    #     uk = sys.argv[1]
+    #     ru = sys.argv[2]
+
+    #     format_input()
 
 
 if __name__ == '__main__':

@@ -1,10 +1,12 @@
-import twint
 import tweepy as tw
 import time
 import pandas as pd
 
 
 def oauth_tweepy():
+    '''Authenticate Twitter API v2 Client
+    to allow Tweepy to scrape data.'''
+
     consumer_key = "EMdB9fj1AX12HDKicRX8AYwoV"
     consumer_secret = "7VdJSlDif7r7urcBf2Wtaya2gUCP2pthF6JbEG6ptQjshacMcm"
     access_token = "1362869631468380161-Hu4sMV946cMSCBaeOq6Ar0DIqthopG-B9Evwp0Iyb7kHKVO3TTfOjOo2Tputk"
@@ -25,20 +27,27 @@ def oauth_tweepy():
     return client
 
 
-def extract_tweeps(client, language):
-    l = language
-    c = 5000
+def extract_tweet_count(client, lang):
+    '''Extract number of Tweets from past week
+    where given language requirement is met.'''
 
-    query = 'Tweepy -lang:' + language
+    query = 'Tweepy -lang:' + lang
     response = client.get_recent_tweets_count(query, granularity='day')
 
-    tcount = 0
+    tweet_count = 0
     for count in response.data:
-        tcount += count['tweet_count']
+        tweet_count += count['tweet_count']
 
-    print(tcount)
+    return tweet_count
 
-    return
+
+def extract_tweeps(client, lang):
+    '''Extract any Tweets from past week
+    where given language requirement is met.'''
+
+    query = 'Tweepy -lang:' + lang
+    response = client.get_recent_tweets_count(query, granularity='day')
+
     # Creation of dataframe from tweets list
     # Add or remove columns as you remove tweet information
     tweets_df = pd.DataFrame(tweets_list)
@@ -63,37 +72,6 @@ def extract_tweeps(client, language):
     except BaseException as e:
         print('failed on_status,', str(e))
         time.sleep(3)
-
-
-def extract_tweets(lang):
-    '''Extract short Tweets information where
-    language is the one specified by the argument.'''
-
-    c = twint.Config()
-
-    # Extract only Tweets with specified
-    # language
-
-    c.Lang = lang
-
-    # Search only for short tweets in last year
-    # to limit size of data
-
-    # c.Limit = 10
-    # c.Year = '2019'
-    # c.Since = '2022-01-01'
-
-    # c.Search = 'from:@JHUBME'
-    # c.Store_csv = True
-    # c.Output = lang + '.csv'
-
-    # c.Pandas = True
-
-    twint.run.Search(c)
-
-    # results = twint.storage.panda.Tweets_df
-    # print(results)
-    # return results
 
 
 def format_input():

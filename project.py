@@ -1,5 +1,6 @@
 import sys
 import time
+from requests import head
 import tweepy as tw
 import pandas as pd
 
@@ -57,7 +58,7 @@ def extract_tweets(client, lang, time_list):
     query = '#ukraine lang:' + lang
     tweets_list = []
 
-    for i in range(1, len(time_list)):
+    for i in range(1, len(time_list[0])):
         try:
             s = time_list[0][i]
             e = time_list[1][i]
@@ -72,7 +73,7 @@ def extract_tweets(client, lang, time_list):
             tweets = response.data
 
             # Pulling information from tweets iterable object
-            tweets_list_small = [[tweet.lang, tweet.text]
+            tweets_list_small = [(tweet.text).replace('\n', '\t').replace('\t', ' ')
                                  for tweet in tweets]
 
             tweets_list.extend(tweets_list_small)
@@ -92,14 +93,20 @@ def output_tweets(df, name):
     a given language as a .csv file.'''
 
     path = name + '.csv'
-    df.to_csv(path, index=False)
+    df.to_csv(path, index=False, header=False, sep='\t')
 
 
 def format_input(df_list):
     '''Use exported Tweets and mix together
     randomly to create input dataset.'''
 
-    shuffle = pd.concat(df_list).sample(frac=1)
+    uk = df_list[0]
+    ru = df_list[1]
+
+    uk.insert(0, 'lang', ['uk'] * len(uk))
+    ru.insert(0, 'lang', ['ru'] * len(ru))
+
+    shuffle = pd.concat([uk, ru]).sample(frac=1)
 
     output_tweets(shuffle, 'input_data')
 
@@ -128,8 +135,8 @@ def main():
         ru = sys.argv[2]
 
         df_list = []
-        df_list.append(pd.read_csv(uk + '.csv', index_col=False))
-        df_list.append(pd.read_csv(ru + '.csv', index_col=False))
+        df_list.append(pd.read_csv(uk + '.csv', index_col=False, sep='\t'))
+        df_list.append(pd.read_csv(ru + '.csv', index_col=False, sep='\t'))
 
         format_input(df_list)
 

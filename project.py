@@ -32,7 +32,7 @@ def extract_tweet_count(client, lang):
     '''Extract number of Tweets from past week
     where given language requirement is met.'''
 
-    query = 'Tweepy -lang:' + lang
+    query = 'kyiv -lang:' + lang
     response = client.get_recent_tweets_count(query, granularity='hour')
 
     tweet_count = 0
@@ -40,9 +40,13 @@ def extract_tweet_count(client, lang):
     ends = []
 
     for count in response.data:
-        tweet_count += count['tweet_count']
+        # tweet_count += count['tweet_count']
+        tweet_count += 100
         starts.append(count['start'])
         ends.append(count['end'])
+
+        if tweet_count >= 5000:
+            break
 
     return tweet_count, [starts, ends]
 
@@ -51,13 +55,13 @@ def extract_tweets(client, lang, time_list):
     '''Extract any Tweets from past week
     where given language requirement is met.'''
 
-    query = 'Tweepy -lang:' + lang
+    query = 'kyiv -lang:' + lang
     tweets_list = []
 
-    for i, times in enumerate(time_list):
+    for i in range(1, len(time_list)):
         try:
-            s = times[0][i]
-            e = times[1][i]
+            s = time_list[0][i]
+            e = time_list[1][i]
 
             response = client.search_recent_tweets(
                 query, max_results=100, start_time=s, end_time=e)
@@ -104,7 +108,7 @@ def format_input(df_list):
 def main():
     args = len(sys.argv)
 
-    if args < 3 and args > 2 and sys.argv[1] == 'extract':
+    if args == 2 and sys.argv[1] == 'extract':
         client = oauth_tweepy()
 
         df_list = []
@@ -116,11 +120,11 @@ def main():
             times_lists.append(time_list)
 
         df_list.append(extract_tweets(client, 'uk', times_lists[0]))
-        df_list.append(extract_tweets(client, 'ru', times_lists[0]))
+        df_list.append(extract_tweets(client, 'ru', times_lists[1]))
 
         format_input(df_list)
 
-    else:
+    elif args == 3:
         uk = sys.argv[1]
         ru = sys.argv[2]
 
@@ -129,6 +133,13 @@ def main():
         df_list.append(pd.read_csv(ru + '.csv', index_col=False))
 
         format_input(df_list)
+
+    else:
+        print('\nUsage is:\n')
+        print('\t python project.py extract')
+        print('\t to extract Tweets from python and write to .csv as well as format\n')
+        print('\t python project.py uk-data ru-data')
+        print('\t to read from existing .csv as well as format\n')
 
 
 if __name__ == '__main__':

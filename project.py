@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 from queue import Queue, PriorityQueue
 from urllib import parse, request
 
+import twint
+
 logging.basicConfig(level=logging.DEBUG, filename='output.log', filemode='w')
 visitlog = logging.getLogger('visited')
 extractlog = logging.getLogger('extracted')
@@ -112,19 +114,12 @@ def crawl(root, wanted_content=[], within_domain=True):
     return visited, extracted
 
 
-def extract_information(address, html):
+def extract_information(lang):
     '''Extract contact information from html, returning a list of (url, category, content) pairs,
     where category is one of PHONE, ADDRESS, EMAIL'''
 
     results = []
-    for match in re.findall('\d\d\d-\d\d\d-\d\d\d\d', str(html)):
-        results.append((address, 'PHONE', match))
-    for match in re.findall('\(\d\d\d\) \d\d\d-\d\d\d\d', str(html)):
-        results.append((address, 'PHONE', match))
-    for match in re.findall('[\w\.-]+@[a-z0-9\.-]+', str(html)):
-        results.append((address, 'EMAIL', match))
-    for match in re.findall('((?:[A-Z][a-z]+\s?)+[,])+\s?((?:[A-Z][a-z]*\s?[.]?)+)\s?(\d\d\d\d\d)', str(html)):
-        results.append((address, 'ADDRESS', match))
+
     return results
 
 
@@ -135,17 +130,29 @@ def writelines(filename, data):
 
 
 def main():
-    site = sys.argv[1]
+    # site = sys.argv[1]
 
-    links = get_links(site)
-    writelines('links.txt', links)
+    # links = get_links(site)
+    # writelines('links.txt', links)
 
-    nonlocal_links = get_nonlocal_links(site)
-    writelines('nonlocal.txt', nonlocal_links)
+    # nonlocal_links = get_nonlocal_links(site)
+    # writelines('nonlocal.txt', nonlocal_links)
 
-    visited, extracted = crawl(site)
-    writelines('visited.txt', visited)
-    writelines('extracted.txt', extracted)
+    # visited, extracted = crawl(site)
+    # writelines('visited.txt', visited)
+    # writelines('extracted.txt', extracted)
+
+    langs = ['uk', 'uk-UA']
+
+    c = twint.Config()
+    c.Username = "noneprivacy"
+    c.Limit = 100
+    c.Store_csv = True
+    c.Output = "none.csv"
+    c.Lang = "en"
+    c.Translate = True
+    c.TranslateDest = "it"
+    twint.run.Search(c)
 
 
 if __name__ == '__main__':

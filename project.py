@@ -32,7 +32,7 @@ def extract_tweet_count(client, lang):
     '''Extract number of Tweets from past week
     where given language requirement is met.'''
 
-    query = 'kyiv -lang:' + lang
+    query = '#ukraine lang:' + lang
     response = client.get_recent_tweets_count(query, granularity='hour')
 
     tweet_count = 0
@@ -40,8 +40,7 @@ def extract_tweet_count(client, lang):
     ends = []
 
     for count in response.data:
-        # tweet_count += count['tweet_count']
-        tweet_count += 100
+        tweet_count += count['tweet_count']
         starts.append(count['start'])
         ends.append(count['end'])
 
@@ -55,7 +54,7 @@ def extract_tweets(client, lang, time_list):
     '''Extract any Tweets from past week
     where given language requirement is met.'''
 
-    query = 'kyiv -lang:' + lang
+    query = '#ukraine lang:' + lang
     tweets_list = []
 
     for i in range(1, len(time_list)):

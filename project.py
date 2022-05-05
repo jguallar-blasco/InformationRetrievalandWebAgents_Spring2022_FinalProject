@@ -84,19 +84,21 @@ def extract_tweets(client, lang, time_list):
     return tweets_df
 
 
-def output_tweets(df, lang):
+def output_tweets(df, name):
     '''Export extracted tweets from
     a given language as a .csv file.'''
 
-    path = lang + '.csv'
+    path = name + '.csv'
     df.to_csv(path, index=False)
 
 
-def format_input(df):
+def format_input(df_list):
     '''Use exported Tweets and mix together
     randomly to create input dataset.'''
 
-    return
+    shuffle = pd.concat(df_list).sample(frac=1)
+
+    output_tweets(shuffle, 'input_data')
 
 
 def main():
@@ -118,11 +120,15 @@ def main():
 
         format_input(df_list)
 
-    # else:
-    #     uk = sys.argv[1]
-    #     ru = sys.argv[2]
+    else:
+        uk = sys.argv[1]
+        ru = sys.argv[2]
 
-    #     format_input()
+        df_list = []
+        df_list.append(pd.read_csv(uk + '.csv', index_col=False))
+        df_list.append(pd.read_csv(ru + '.csv', index_col=False))
+
+        format_input(df_list)
 
 
 if __name__ == '__main__':

@@ -1,6 +1,7 @@
 import argparse
 from itertools import groupby
-import regex as re
+import re
+import sklearn
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report
 

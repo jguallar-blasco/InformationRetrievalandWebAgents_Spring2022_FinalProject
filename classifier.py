@@ -2,6 +2,13 @@ import argparse
 from itertools import groupby
 import re
 import sklearn
+import itertools
+import sys
+import math
+import numpy as np
+from numpy.linalg import norm
+from collections import Counter, defaultdict
+from typing import Dict, List, NamedTuple
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report
 from googletrans import Translator
@@ -72,7 +79,6 @@ class SegmentClassifier:
             1 if sum(1 if word in self.ru_words else 0 for word in words) > 1 else 0,
             3 if sum(1 if word in self.ru_words else 0 for word in words) > 5 else 0,
             5 if sum(1 if word in self.uk_words else 0 for word in words) > 10 else 0,
-
 
 
         ]
@@ -147,7 +153,7 @@ def dictdot(x, y):
 # Function to compute cosine similarity
 def cosine_sim(x, y):
 
-    num = dicdot(x, y)
+    num = dictdot(x, y)
     if num == 0:
         return 0
     return num / (norm(list(x.values())) * norm(list(y.values())))
@@ -158,7 +164,10 @@ def tf(sent):
     dic = {}
     x = sent.split()
     for word in x:
-        dic[word] = 1
+        if word in dic:
+            dic[word] += 1
+        else:
+            dic[word] = 1
 
     return dic
 
@@ -170,9 +179,9 @@ def main():
     ru_dics = []
     uk_dics = []
     trainX, trainY = load_data(args.train, ru_dics, uk_dics)
-    print(ru_dics)
-    print(uk_dics)
-    exit()
+    #print(ru_dics)
+    #print(uk_dics)
+    #exit()
 
     # Processing test phrase
     testX = []
@@ -193,6 +202,20 @@ def main():
     classifier.train(trainX, trainY)
     outputs = classifier.classify(testX)
 
+    # Computing similarity
+    # Computing similarity to ukrainian train data
+    uk_cosine_sum = 0
+    ru_cosine_sum = 0
+    for sent in uk_dics:
+        uk_cosine_sum += cosine_sim(sent, test_dict)
+    for sent in ru_dics:
+        ru_cosine_sum += cosine_sim(sent, test_dict)
+
+    uk_cosine = uk_cosine_sum/len(uk_dics) * 1000
+    ru_cosine = ru_cosine_sum/len(ru_dics) * 1000
+
+    # Computing similarity to russain train data 
+
 
     if args.output is not None:
         #with open(args.output, 'w') as fout:
@@ -206,6 +229,8 @@ def main():
                 print('         Ukrainian')
             else:
                 print('         Russian')
+            print('Cosine similarity to Ukrainian: ' + str(uk_cosine))
+            print('Cosine similarity to Russian: ' +  str(ru_cosine))
             print('Google translate believes the language of the text you have passed is: ')
             
             

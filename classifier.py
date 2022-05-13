@@ -138,7 +138,7 @@ def parseargs():
     parser = argparse.ArgumentParser()
     parser.add_argument('--train', required=True) # Train tweets to be passed everytime 
     parser.add_argument('--test', required=True) # New text to be judged
-    parser.add_argument('--format', required=True) 
+    parser.add_argument('--format', required=False) 
     parser.add_argument('--output')
     parser.add_argument('--errors')
     parser.add_argument('--report', action='store_true')
@@ -175,6 +175,8 @@ def main():
     args = parseargs()
 
     # Process development data
+    #args.train = './input_data-train.tsv'
+    #args.format = line
 
     ru_dics = []
     uk_dics = []
@@ -190,7 +192,6 @@ def main():
     testY.append('Unkown')
 
     test_dict = tf(args.test)
-
 
     # Format for testing
 
@@ -224,17 +225,22 @@ def main():
         for truth, output, text in zip(testY, outputs, testX):
             print('This is the text you passed: ')
             print('         ' + text)
-            print('We believe the langauge of the text you have passed is: ')
+            print('According to our decision tree classifier, we believe the' 
+                   + 'langauge of the text you have passed is: ')
             if output == '"uk':
                 print('         Ukrainian')
             else:
                 print('         Russian')
-            print('Cosine similarity to Ukrainian: ' + str(uk_cosine))
-            print('Cosine similarity to Russian: ' +  str(ru_cosine))
+            print('According to our cosine similaritu classifier, the language'
+                + 'of the text you have passed is: ')
+            if uk_cosine > ru_cosine:
+                print('         Ukrainian')
+            else:
+                print('         Russian')
+            #print('Cosine similarity to Ukrainian: ' + str(uk_cosine))
+            #print('Cosine similarity to Russian: ' +  str(ru_cosine))
             print('Google translate believes the language of the text you have passed is: ')
-            
-            
-                
+               
             google_result = google_translator.translate(text)
             print('         ' + google_result.src)
             print('AND this is the translation of you text by Google translate: ')

@@ -12,37 +12,33 @@ from typing import Dict, List, NamedTuple
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report
 from googletrans import Translator
-
-#print(googletrans.LANGUAGES)
-google_translator = Translator()
-
-from BingTranslator import Translator
+# from google_trans_new import Translator
+# from BingTranslator import Translator
 
 client_id = "ClassifierID"
 client_secret = "ClassifierSecret"
 
-bing_translator = Translator(client_id, client_secret)
+google_translator = Translator()
+# bing_translator = Translator(client_id, client_secret)
+
 
 class SegmentClassifier:
     def train(self, trainX, trainY):
-        self.ru_words = load_wordlist('1000_most_common_russian_words.txt')
-        self.uk_words = load_wordlist('1000_most_common_russian_words.txt')
 
-        self.clf = DecisionTreeClassifier()  # TODO: experiment with different models
+        self.ru_words = load_wordlist('1000_most_common_russian_words.txt')
+        self.uk_words = load_wordlist('1000_most_common_ukrainian_words.txt')
+
+        self.clf = DecisionTreeClassifier()
         X = [self.extract_features(x) for x in trainX]
         self.clf.fit(X, trainY)
 
-        #self.russian_words = load_wordlist('1000_most_common_russian_words.txt')
-        #self.uk_words = load_wordlist('1000_most_common_ukrainian_words.txt')
-
     def extract_features(self, text):
+
         words = text.split()
-        features = [  # TODO: add features here
+        features = [
             len(text),
             len(text.strip()),
             len(words),
-            
-            
 
             # Ukrainian
             # Cyrillic letter GJE
@@ -58,9 +54,12 @@ class SegmentClassifier:
             1 if re.search('[\u0456]', text) == 1 or re.search(
                 '[\u0406]', text) == 1 else 0,
 
-            1 if sum(1 if word in self.uk_words else 0 for word in words) > 1 else 0,
-            3 if sum(1 if word in self.uk_words else 0 for word in words) > 5 else 0,
-            5 if sum(1 if word in self.uk_words else 0 for word in words) > 10 else 0,
+            1 if sum(
+                1 if word in self.uk_words else 0 for word in words) > 1 else 0,
+            3 if sum(
+                1 if word in self.uk_words else 0 for word in words) > 5 else 0,
+            5 if sum(
+                1 if word in self.uk_words else 0 for word in words) > 10 else 0,
 
             # Russian
             # Cyrillic letter IO
@@ -76,11 +75,12 @@ class SegmentClassifier:
             1 if re.search('[\u044D]', text) == 1 or re.search(
                 '[\u042D]', text) == 1 else 0,
 
-            1 if sum(1 if word in self.ru_words else 0 for word in words) > 1 else 0,
-            3 if sum(1 if word in self.ru_words else 0 for word in words) > 5 else 0,
-            5 if sum(1 if word in self.uk_words else 0 for word in words) > 10 else 0,
-
-
+            1 if sum(
+                1 if word in self.ru_words else 0 for word in words) > 1 else 0,
+            3 if sum(
+                1 if word in self.ru_words else 0 for word in words) > 5 else 0,
+            5 if sum(
+                1 if word in self.uk_words else 0 for word in words) > 10 else 0,
         ]
         return features
 
@@ -93,6 +93,7 @@ def load_wordlist(file):
     with open(file) as fin:
         return set([x.strip() for x in fin.readlines()])
 
+
 def load_data(file, ru_dics, uk_dics):
     with open(file) as fin:
         X = []
@@ -101,9 +102,9 @@ def load_data(file, ru_dics, uk_dics):
             arr = line.strip().split('\t', 1)
             if arr[0] == '#BLANK#':
                 continue
-            X.append(arr[1]) # text
-            y.append(arr[0]) # classification
-            
+            X.append(arr[1])  # text
+            y.append(arr[0])  # classification
+
             # Fill ru and uk dics
             if arr[0] == 'uk' or arr[0] == '"uk':
                 temp_dict = tf(arr[1])
@@ -136,30 +137,34 @@ def evaluate(outputs, golds):
 
 def parseargs():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--train', required=True) # Train tweets to be passed everytime 
-    parser.add_argument('--test', required=True) # New text to be judged
-    parser.add_argument('--format', required=False) 
+    # Train tweets to be passed everytime
+    parser.add_argument('--train', required=True)
+    parser.add_argument('--test', required=True)  # New text to be judged
+    parser.add_argument('--format', required=False)
     parser.add_argument('--output')
     parser.add_argument('--errors')
     parser.add_argument('--report', action='store_true')
     return parser.parse_args()
 
-# Function to compute dot product of two vectors
+
 def dictdot(x, y):
+    # Function to compute dot product of two vectors
 
     keys = list(x.keys()) if len(x) < len(y) else list(y.keys())
     return sum(x.get(key, 0) * y.get(key, 0) for key in keys)
 
-# Function to compute cosine similarity
+
 def cosine_sim(x, y):
+    # Function to compute cosine similarity
 
     num = dictdot(x, y)
     if num == 0:
         return 0
     return num / (norm(list(x.values())) * norm(list(y.values())))
 
-# Function to compute tf
+
 def tf(sent):
+    # Function to compute tf
 
     dic = {}
     x = sent.split()
@@ -171,6 +176,7 @@ def tf(sent):
 
     return dic
 
+
 def main():
     args = parseargs()
 
@@ -181,9 +187,9 @@ def main():
     ru_dics = []
     uk_dics = []
     trainX, trainY = load_data(args.train, ru_dics, uk_dics)
-    #print(ru_dics)
-    #print(uk_dics)
-    #exit()
+    # print(ru_dics)
+    # print(uk_dics)
+    # exit()
 
     # Processing test phrase
     testX = []
@@ -215,32 +221,32 @@ def main():
     uk_cosine = uk_cosine_sum/len(uk_dics) * 1000
     ru_cosine = ru_cosine_sum/len(ru_dics) * 1000
 
-    # Computing similarity to russain train data 
-
+    # Computing similarity to russain train data
 
     if args.output is not None:
-        #with open(args.output, 'w') as fout:
-        #print(testY)
-        #print(testX)
+        # with open(args.output, 'w') as fout:
+        # print(testY)
+        # print(testX)
         for truth, output, text in zip(testY, outputs, testX):
             print('This is the text you passed: ')
             print('         ' + text)
-            print('According to our decision tree classifier, we believe the' 
-                   + 'langauge of the text you have passed is: ')
+            print('According to our decision tree classifier, we believe the'
+                  + 'langauge of the text you have passed is: ')
             if output == '"uk':
                 print('         Ukrainian')
             else:
                 print('         Russian')
             print('According to our cosine similaritu classifier, the language'
-                + 'of the text you have passed is: ')
+                  + 'of the text you have passed is: ')
             if uk_cosine > ru_cosine:
                 print('         Ukrainian')
             else:
                 print('         Russian')
             #print('Cosine similarity to Ukrainian: ' + str(uk_cosine))
             #print('Cosine similarity to Russian: ' +  str(ru_cosine))
-            print('Google translate believes the language of the text you have passed is: ')
-               
+            print(
+                'Google translate believes the language of the text you have passed is: ')
+
             google_result = google_translator.translate(text)
             print('         ' + google_result.src)
             print('AND this is the translation of you text by Google translate: ')
@@ -257,7 +263,6 @@ def main():
             print('         ' + bring_result)
             '''
 
-
     """
     if args.errors is not None:
         with open(args.errors, 'w') as fout:
@@ -270,6 +275,7 @@ def main():
     else:
         evaluate(outputs, testY)
     """
+
 
 if __name__ == '__main__':
     main()

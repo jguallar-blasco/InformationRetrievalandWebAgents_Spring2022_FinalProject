@@ -223,45 +223,41 @@ def main():
 
     # Computing similarity to russain train data
 
-    if args.output is not None:
-        # with open(args.output, 'w') as fout:
-        # print(testY)
-        # print(testX)
-        for truth, output, text in zip(testY, outputs, testX):
-            print('This is the text you passed: ')
-            print('         ' + text)
-            print('According to our decision tree classifier, we believe the'
-                  + 'langauge of the text you have passed is: ')
-            if output == '"uk':
-                print('         Ukrainian')
-            else:
-                print('         Russian')
-            print('According to our cosine similaritu classifier, the language'
-                  + 'of the text you have passed is: ')
-            if uk_cosine > ru_cosine:
-                print('         Ukrainian')
-            else:
-                print('         Russian')
-            #print('Cosine similarity to Ukrainian: ' + str(uk_cosine))
-            #print('Cosine similarity to Russian: ' +  str(ru_cosine))
-            print(
-                'Google translate believes the language of the text you have passed is: ')
+    for truth, output, text in zip(testY, outputs, testX):
+        print('This is the text you passed: ')
+        print('         ' + text)
+        print('According to our decision tree classifier, we believe the'
+              + 'langauge of the text you have passed is: ')
+        if output == '"uk':
+            print('         Ukrainian')
+        else:
+            print('         Russian')
+        print('According to our cosine similaritu classifier, the language'
+              + 'of the text you have passed is: ')
+        if uk_cosine > ru_cosine:
+            print('         Ukrainian')
+        else:
+            print('         Russian')
+        #print('Cosine similarity to Ukrainian: ' + str(uk_cosine))
+        #print('Cosine similarity to Russian: ' +  str(ru_cosine))
+        print(
+            'Google translate believes the language of the text you have passed is: ')
 
-            google_result = google_translator.translate(text)
-            print('         ' + google_result.src)
-            print('AND this is the translation of you text by Google translate: ')
-            print('         ' + google_result.text)
-            print('')
+        google_result = google_translator.translate(text)
+        print('         ' + google_result.src)
+        print('AND this is the translation of you text by Google translate: ')
+        print('         ' + google_result.text)
+        print('')
 
-            # Bing translation
-            '''
-            bing_detection = bing_translator.detect_language(text)
-            bing_result = bing_translator.translate(text, "pt")
-            print('Bing translate believes the langauge of the text you have passed is: ')
-            print('         ' + bing_detection)
-            print('AND this is the translation of your text by Bing translate: ')
-            print('         ' + bring_result)
-            '''
+        # Bing translation
+        '''
+        bing_detection = bing_translator.detect_language(text)
+        bing_result = bing_translator.translate(text, "pt")
+        print('Bing translate believes the langauge of the text you have passed is: ')
+        print('         ' + bing_detection)
+        print('AND this is the translation of your text by Bing translate: ')
+        print('         ' + bring_result)
+        '''
 
     """
     if args.errors is not None:

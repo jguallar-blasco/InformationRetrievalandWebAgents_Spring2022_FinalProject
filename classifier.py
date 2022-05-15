@@ -1,16 +1,9 @@
 import argparse
 from itertools import groupby
 import re
-import sklearn
-import itertools
-import sys
-import math
 import numpy as np
 from numpy.linalg import norm
-from collections import Counter, defaultdict
-from typing import Dict, List, NamedTuple
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import classification_report
 from googletrans import Translator
 # from google_trans_new import Translator
 # from BingTranslator import Translator

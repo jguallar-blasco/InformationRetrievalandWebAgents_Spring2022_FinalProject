@@ -1,6 +1,5 @@
 import sys
 import time
-from requests import head
 import tweepy as tw
 import pandas as pd
 

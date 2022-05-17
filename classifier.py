@@ -217,30 +217,26 @@ def main():
     # Computing similarity to russain train data
 
     for truth, output, text in zip(testY, outputs, testX):
-        print('This is the text you passed: ')
-        print('         ' + text)
-        print('According to our decision tree classifier, we believe the'
-              + 'langauge of the text you have passed is: ')
+        #print('This is the text you passed: ')
+        #print('         ' + text)
+        print('\nDecision Tree classification:')
         if output == '"uk':
-            print('         Ukrainian')
+            print('\t\tUkrainian')
         else:
-            print('         Russian')
-        print('According to our cosine similaritu classifier, the language'
-              + 'of the text you have passed is: ')
+            print('\t\tRussian')
+        print('\nCosine similarity classification:')
         if uk_cosine > ru_cosine:
-            print('         Ukrainian')
+            print('\t\tUkrainian, with similarity:', uk_cosine)
         else:
-            print('         Russian')
+            print('\t\tRussian, with similarity:', ru_cosine)
         #print('Cosine similarity to Ukrainian: ' + str(uk_cosine))
         #print('Cosine similarity to Russian: ' +  str(ru_cosine))
-        print(
-            'Google translate believes the language of the text you have passed is: ')
 
+        print('\nGoogle Translate classification:')
         google_result = google_translator.translate(text)
-        print('         ' + google_result.src)
-        print('AND this is the translation of you text by Google translate: ')
-        print('         ' + google_result.text)
-        print('')
+        print('\t\t' + google_result.src)
+        print('\nTranslation:')
+        print('\t\t' + google_result.text)
 
         # Bing translation
         '''

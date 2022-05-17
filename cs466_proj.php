@@ -14,12 +14,13 @@
 		echo $item;
 		echo "<br><br>";
 
-		$pyrun = "./bin/python3 /home/aszewc1/public_html/cs466/classifier.py --train input_data-train.tsv --test '".$item."' 2>&1";
+		$output = shell_exec("source env6/bin/activate 2>&1");
 
+		$pyrun = "./env6/bin/python3 /home/aszewc1/public_html/cs466/classifier.py --train input_data-train.tsv --test '".$item."' 2>&1";
 		$output = shell_exec($pyrun);
+		
 		echo "<pre>$output</pre>";
 
-		echo $pyrun;
    	} else {
       		echo "not set";
 	}

@@ -211,8 +211,8 @@ def main():
     for sent in ru_dics:
         ru_cosine_sum += cosine_sim(sent, test_dict)
 
-    uk_cosine = uk_cosine_sum/len(uk_dics) * 1000
-    ru_cosine = ru_cosine_sum/len(ru_dics) * 1000
+    uk_cosine = uk_cosine_sum/len(uk_dics)
+    ru_cosine = ru_cosine_sum/len(ru_dics)
 
     # Computing similarity to russain train data
 
@@ -226,11 +226,11 @@ def main():
             print('\t\tRussian')
         print('\nCosine similarity classification:')
         if uk_cosine > ru_cosine:
-            print('\t\tUkrainian, with similarity:', uk_cosine)
+            print('\t\tUkrainian')
         else:
-            print('\t\tRussian, with similarity:', ru_cosine)
-        #print('Cosine similarity to Ukrainian: ' + str(uk_cosine))
-        #print('Cosine similarity to Russian: ' +  str(ru_cosine))
+            print('\t\tRussian')
+        print('\nCosine similarity to Ukrainian: ' + "{:.6f}".format(uk_cosine))
+        print('Cosine similarity to Russian: ' +  "{:.6f}".format(ru_cosine))
 
         print('\nGoogle Translate classification:')
         google_result = google_translator.translate(text)
